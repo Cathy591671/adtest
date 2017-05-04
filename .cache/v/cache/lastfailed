@@ -1,0 +1,5 @@
+{
+  "appium_test.py::appiumtest::test_toinvest": true, 
+  "appium_test.py::appiumtest::test_tologin": true, 
+  "appium_test.py::appiumtest::test_tologout": true
+}

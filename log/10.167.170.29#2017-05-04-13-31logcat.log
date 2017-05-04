@@ -1,0 +1,132 @@
+--------- beginning of system
+05-04 12:36:24.834 E/ActivityThread( 6346): Failed to find provider info for com.google.plus.platform
+05-04 13:22:03.663 E/MtpServer( 3889): void android::MtpServer::sendEvent(android::MtpEventCode, uint32_t): Without OpenSession to send event code = 0x4004, 
+05-04 13:22:03.666 E/MtpServer( 3889): MtpServer::run mFD: 35
+05-04 13:22:03.709 E/MtpServer( 3889): void android::MtpServer::sendEvent(android::MtpEventCode, uint32_t): Without OpenSession to send event code = 0x4006, 
+05-04 13:22:06.557 E/ActivityThread(11825): Failed to find provider info for com.google.plus.platform
+05-04 13:22:06.941 E/MtpServer( 3889): MtpServer::run mFD: 35
+05-04 13:22:06.942 E/MtpServer( 3889): MtpServer::run mFD: 35
+05-04 13:22:06.999 E/MtpServer( 3889): MtpServer::run mFD: 35
+05-04 13:22:06.999 E/MtpServer( 3889): MtpServer::run mFD: 35
+05-04 13:22:07.164 E/MtpServer( 3889): MtpServer::run mFD: 35
+05-04 13:22:08.921 E/MtpServer( 3889): void android::MtpServer::sendEvent(android::MtpEventCode, uint32_t): Without OpenSession to send event code = 0x4004, 
+05-04 13:22:08.922 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.924 E/MtpServer( 3889): void android::MtpServer::sendEvent(android::MtpEventCode, uint32_t): Without OpenSession to send event code = 0x4006, 
+05-04 13:22:08.928 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.928 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.929 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.929 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.931 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.946 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.946 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.947 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.947 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.947 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.948 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.948 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.948 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.948 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.949 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.949 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.949 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.949 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.950 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.950 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.951 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.951 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.951 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.952 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.952 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.952 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.952 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.953 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:22:08.954 E/MtpServer( 3889): MtpServer::run mFD: 44
+05-04 13:24:00.107 E/ConnectivityService( 1035): RemoteException caught trying to send a callback msg for NetworkRequest [ id=6, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+--------- beginning of main
+05-04 13:32:08.664 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:32:11.965 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:32:37.166 E/Launcher( 2088): had load blur wallpaper
+05-04 13:32:38.025 E/UiDevice(12215): Exceuting watcher: ANR2
+05-04 13:32:38.025 E/UiDevice(12215): java.lang.IllegalStateException: UiAutomation not connected!
+05-04 13:32:38.025 E/UiDevice(12215): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-04 13:32:38.025 E/UiDevice(12215): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.common.UiWatchers$2.checkForCondition(UiWatchers.java:67)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 13:32:38.025 E/UiDevice(12215): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-04 13:32:38.025 E/UiDevice(12215): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:26)
+05-04 13:32:38.025 E/UiDevice(12215): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-04 13:32:38.025 E/UiDevice(12215): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-04 13:32:38.025 E/UiDevice(12215): Exceuting watcher: ANR
+05-04 13:32:38.025 E/UiDevice(12215): java.lang.IllegalStateException: UiAutomation not connected!
+05-04 13:32:38.025 E/UiDevice(12215): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-04 13:32:38.025 E/UiDevice(12215): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.common.UiWatchers$1.checkForCondition(UiWatchers.java:47)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 13:32:38.025 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 13:32:38.025 E/UiDevice(12215): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-04 13:32:38.025 E/UiDevice(12215): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:26)
+05-04 13:32:38.025 E/UiDevice(12215): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-04 13:32:38.025 E/UiDevice(12215): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-04 13:32:38.026 E/UiDevice(12215): Exceuting watcher: CRASH2
+05-04 13:32:38.026 E/UiDevice(12215): java.lang.IllegalStateException: UiAutomation not connected!
+05-04 13:32:38.026 E/UiDevice(12215): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-04 13:32:38.026 E/UiDevice(12215): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.common.UiWatchers$4.checkForCondition(UiWatchers.java:107)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 13:32:38.026 E/UiDevice(12215): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 13:32:38.026 E/UiDevice(12215): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-04 13:32:38.026 E/UiDevice(12215): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:26)
+05-04 13:32:38.026 E/UiDevice(12215): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-04 13:32:38.026 E/UiDevice(12215): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): uncaught exception
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=12215, uid=2000, (need uid=1000) is not allowed to send as package android
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:170)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-04 13:32:38.063 E/UiAutomatorTestRunner(12215): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-04 13:33:12.046 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:33:15.255 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:33:44.599 E/WifiAutoJoinController ( 1035): attemptAutoJoin() num recent config 1 current="RJYFZX-Wifi-02"WPA_PSK ---> suppNetId=12
+05-04 13:34:15.336 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:34:18.634 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:35:18.740 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:35:21.936 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 13:35:24.569 E/WifiAutoJoinController ( 1035): attemptAutoJoin() num recent config 1 current="RJYFZX-Wifi-02"WPA_PSK ---> suppNetId=12
+05-04 13:35:24.570 E/WifiConfigStore( 1035):  rewrite network history for "RJYFZX-Wifi-02"WPA_PSK

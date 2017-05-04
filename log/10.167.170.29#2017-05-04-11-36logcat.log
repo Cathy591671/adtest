@@ -1,0 +1,58 @@
+--------- beginning of system
+05-04 11:21:59.057 E/ConnectivityService( 1035): RemoteException caught trying to send a callback msg for NetworkRequest [ id=5, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+05-04 11:22:02.959 E/InputMethodManagerService( 1035): Ignoring updateStatusIcon due to an invalid token. uid:1000 token:android.os.Binder@2a5eb43d
+05-04 11:22:03.118 E/InputMethodManagerService( 1035): Ignoring updateStatusIcon due to an invalid token. uid:1000 token:android.os.Binder@2a5eb43d
+05-04 11:23:08.514 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.sohu.inputmethod.sogou/cache/
+05-04 11:26:11.782 E/ConnectivityService( 1035): EVENT_NETWORK_INFO_CHANGED from unknown NetworkAgent
+05-04 11:26:23.782 E/ConnectivityService( 1035): Unexpected mtu value: 0, wlan0
+05-04 11:26:23.820 E/ConnectivityService( 1035): Add google dns provided for 101 - using 8.8.8.8
+--------- beginning of main
+05-04 11:37:36.329 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 11:37:39.629 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 11:37:50.902 E/Launcher( 2088): had load blur wallpaper
+05-04 11:37:50.978 E/QueryController( 8357): Got null root node from accessibility - Retrying...
+05-04 11:37:51.779 E/UiDevice( 8357): Exceuting watcher: CRASH2
+05-04 11:37:51.779 E/UiDevice( 8357): java.lang.IllegalStateException: UiAutomation not connected!
+05-04 11:37:51.779 E/UiDevice( 8357): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.common.UiWatchers$4.checkForCondition(UiWatchers.java:107)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:26)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-04 11:37:51.779 E/UiDevice( 8357): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): uncaught exception
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=8357, uid=2000, (need uid=1000) is not allowed to send as package android
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:170)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-04 11:37:51.833 E/UiAutomatorTestRunner( 8357): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-04 11:38:25.354 E/WifiAutoJoinController ( 1035): attemptAutoJoin() num recent config 1 current="RJYFZX-Wifi-02"WPA_PSK ---> suppNetId=12
+05-04 11:39:39.719 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 11:39:42.908 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 11:39:43.609 E/Launcher( 2088): had load blur wallpaper
+05-04 11:40:08.992 E/WifiStateMachine( 1035): detectGateWayChange mGateWayTooken = 1
+05-04 11:40:08.999 E/WifiStateMachine( 1035): detectGateWayChange
+05-04 11:40:09.059 E/WifiStateMachine( 1035): get CMD_DETECT_GATE_WAY msg token 1 mGateWayTooken=1
+05-04 11:40:25.288 E/WifiAutoJoinController ( 1035): attemptAutoJoin() num recent config 1 current="RJYFZX-Wifi-02"WPA_PSK ---> suppNetId=12
+05-04 11:41:42.996 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 11:41:46.266 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []

@@ -1,0 +1,16 @@
+#letv x500
+username:test55
+userpwd:qwe123456
+paymoney:100.00
+rechargemoney:200
+fuyoupaypwd:qwe123456
+fuyouyzm:0000
+withdrawmoney:100
+#phone2
+username:test55
+userpwd:qwe123456
+paymoney:100.00
+rechargemoney:200
+fuyoupaypwd:qwe123456
+fuyouyzm:0000
+withdrawmoney:555

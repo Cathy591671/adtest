@@ -1,0 +1,7 @@
+--------- beginning of /dev/log/system
+05-04 12:27:37.241 E/ActivityManager(  985): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.xinhe.ocr/.SplashActivity u=0} from pid 4704
+05-04 12:27:55.382 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.one.activity.LoginActivity u=0} from pid 4714
+05-04 12:28:12.621 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.one.activity.MainActivity (has extras) u=0} from pid 4714
+05-04 12:28:15.388 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.two.activity.credit.CreditLendActivity u=0} from pid 4714
+05-04 12:28:17.103 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.two.activity.credit.customer_consult_info.CustomerConsultationInfoFirstActivity u=0} from pid 4714
+--------- beginning of /dev/log/main

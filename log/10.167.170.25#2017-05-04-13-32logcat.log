@@ -1,0 +1,279 @@
+--------- beginning of /dev/log/system
+05-04 13:29:06.667 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.two.activity.credit.reinput.apply.ReInputCustomerApplyLinkManActivity u=0} from pid 12468
+05-04 13:30:25.496 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.two.activity.credit.reinput.apply.ReInputCustomerApplyCertificateActivity u=0} from pid 12468
+05-04 13:30:38.668 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.two.activity.credit.reinput.apply.ReInputCustomerApplyOccupationActivity u=0} from pid 12468
+05-04 13:31:55.638 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.two.activity.credit.reinput.apply.ReInputCustomerApplyBankActivity u=0} from pid 12468
+--------- beginning of /dev/log/main
+05-04 13:32:04.268 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.269 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.270 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.270 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.270 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.277 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.278 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.278 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.278 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.280 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.281 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.281 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.281 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.283 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.284 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.284 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.284 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.284 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.285 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.285 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.285 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.287 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.288 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.288 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.288 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.288 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.289 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.289 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.289 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.320 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.321 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.334 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.334 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.334 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.334 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.334 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.335 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.335 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.335 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:04.992 E/QueryController(12433): Got null root node from accessibility - Retrying...
+05-04 13:32:11.776 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.776 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.777 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.778 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.778 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.779 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.786 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.787 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.787 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.787 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.789 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.790 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.790 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.790 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.791 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.792 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.792 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.792 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.792 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.793 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.793 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.793 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.796 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.797 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.797 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.797 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.797 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.798 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.798 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.798 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.827 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.844 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.844 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.844 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.844 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.844 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.845 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.845 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:11.845 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:13.012 E/dalvikvm(13311): /system/framework/am.jar odex has stale dependencies
+05-04 13:32:13.160 E/memtrack(13311): Couldn't load memtrack module (No such file or directory)
+05-04 13:32:13.160 E/android.os.Debug(13311): failed to load memtrack module: -2
+05-04 13:32:13.240 E/jdwp    (13311): jdwp::setsockopt(SO_SNDTIMEO)
+05-04 13:32:13.240 E/jdwp    (13311): jdwp::setsockopt(SO_RCVTIMEO)
+05-04 13:32:16.116 E/QueryController(12433): Got null root node from accessibility - Retrying...
+05-04 13:32:17.385 E/ActivityManager(  985): START {cmp=com.xinhe.ocr/.one.activity.MainActivity u=0} from pid 12468
+05-04 13:32:17.712 E/QueryController(12433): Got null root node from accessibility - Retrying...
+05-04 13:32:30.479 E/RemoteViews( 2479): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.582 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.591 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.893 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.916 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.940 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.968 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.987 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:30.992 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:31.010 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:31.067 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:31.089 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.285 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.285 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.287 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.288 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.288 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.295 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.296 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.297 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.297 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.299 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.300 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.300 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.300 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.303 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.303 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.303 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.303 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.304 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.304 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.304 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.305 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.307 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.308 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.308 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.308 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.308 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.309 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.309 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.309 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.337 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.337 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.337 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.337 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.337 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.338 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.338 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.338 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.351 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.351 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.351 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.352 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.352 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.352 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.352 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:32:34.352 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.811 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.814 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.814 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.815 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.824 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.828 E/RemoteViews( 2744): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.837 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.837 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.838 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.838 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.841 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.841 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.842 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.842 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.844 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.844 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.845 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.845 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.845 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.847 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.847 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.847 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.849 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.850 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.850 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.850 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.850 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.851 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.851 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.851 E/RemoteViews(  985): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.879 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.879 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.879 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.879 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.880 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.880 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.880 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.880 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.892 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.892 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.892 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.893 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.893 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.893 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.893 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:16.893 E/RemoteViews( 2070): ANR Warning,RemoteViews can only be used once ,if not ,it may cause ANR in hosts such as Laucher,SystemUI. keys for search <ANR Exception MSG   History>
+05-04 13:33:17.144 E/dalvikvm(13430): /system/framework/input.jar odex has stale dependencies
+05-04 13:33:17.293 E/memtrack(13430): Couldn't load memtrack module (No such file or directory)
+05-04 13:33:17.293 E/android.os.Debug(13430): failed to load memtrack module: -2
+05-04 13:33:17.374 E/ActivityManager(  985): START {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.oppo.launcher/.Launcher u=0} from pid 985
+05-04 13:33:17.390 E/InputLog(  985): WindowManager :  startDockOrHome ok
+05-04 13:33:17.396 E/jdwp    (13430): jdwp::setsockopt(SO_SNDTIMEO)
+05-04 13:33:17.396 E/jdwp    (13430): jdwp::setsockopt(SO_RCVTIMEO)
+05-04 13:33:17.938 E/dalvikvm(13445): /system/framework/ime.jar odex has stale dependencies
+05-04 13:33:18.065 E/dalvikvm(13453): Could not find class 'com.qihoo360.mobilesafe.service.KLJobServiceXYZ', referenced from method com.qihoo360.mobilesafe.ui.index.MobileSafeApplication.onCreate
+05-04 13:33:18.090 E/memtrack(13445): Couldn't load memtrack module (No such file or directory)
+05-04 13:33:18.090 E/android.os.Debug(13445): failed to load memtrack module: -2
+05-04 13:33:18.155 F/InputMethodManagerService(  985): Input Method Manager Crash
+05-04 13:33:18.155 F/InputMethodManagerService(  985): java.lang.IllegalArgumentException: Unknown id: WARNING:
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at com.android.server.InputMethodManagerService.setInputMethodLocked(InputMethodManagerService.java:1748)
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at com.android.server.InputMethodManagerService.setInputMethodWithSubtypeId(InputMethodManagerService.java:2426)
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at com.android.server.InputMethodManagerService.setInputMethod(InputMethodManagerService.java:2204)
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at com.android.internal.view.IInputMethodManager$Stub.onTransact(IInputMethodManager.java:259)
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at com.android.server.InputMethodManagerService.onTransact(InputMethodManagerService.java:852)
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at android.os.Binder.execTransact(Binder.java:404)
+05-04 13:33:18.155 F/InputMethodManagerService(  985): 	at dalvik.system.NativeStart.run(Native Method)
+05-04 13:33:18.227 E/Parcel  (13453): Reading a NULL string not supported here.
+05-04 13:33:18.473 E/jdwp    (13445): jdwp::setsockopt(SO_SNDTIMEO)
+05-04 13:33:18.473 E/jdwp    (13445): jdwp::setsockopt(SO_RCVTIMEO)
+05-04 13:33:18.786 E/dalvikvm(13488): /system/framework/am.jar odex has stale dependencies
+05-04 13:33:18.936 E/memtrack(13488): Couldn't load memtrack module (No such file or directory)
+05-04 13:33:18.936 E/android.os.Debug(13488): failed to load memtrack module: -2
+05-04 13:33:19.010 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:33:19.010 E/Accel   (  985): ACC batch: handle:0, en:1, maxBatchReportLatencyNs:0 
+05-04 13:33:19.010 E/Sensors (  985): sensor 0 go to common batch
+05-04 13:33:19.010 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:33:19.010 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:33:19.011 E/Sensors (  985): new setDelay handle(0),ns(20000000)m, error(0), index(2)
+05-04 13:33:19.011 E/Accel   (  985): ACC batch: handle:0, en:0, maxBatchReportLatencyNs:0 
+05-04 13:33:19.011 E/Sensors (  985): sensor 0 go to common batch
+05-04 13:33:19.011 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:33:19.011 E/Sensors (  985): go to batchsensor
+05-04 13:33:19.011 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:33:19.042 E/MTKLogger/Utils(13499): MODEM_INDEX_SET added index: 1
+05-04 13:33:19.042 E/MTKLogger/Utils(13499): NoSuchFieldException
+05-04 13:33:19.043 E/MTKLogger/Utils(13499): NoSuchFieldException
+05-04 13:33:19.044 E/MTKLogger/Utils(13499): NoSuchFieldException
+05-04 13:33:19.044 E/MTKLogger/Utils(13499): NoSuchFieldException
+05-04 13:33:19.045 E/MTKLogger/Utils(13499): NoSuchFieldException
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.046 E/MTKLogger/Utils(13499):  modem MODEM_MAP index: null
+05-04 13:33:19.067 E/jdwp    (13488): jdwp::setsockopt(SO_SNDTIMEO)
+05-04 13:33:19.067 E/jdwp    (13488): jdwp::setsockopt(SO_RCVTIMEO)
+05-04 13:33:37.509 E/dalvikvm(13542): /system/framework/am.jar odex has stale dependencies
+05-04 13:33:37.659 E/memtrack(13542): Couldn't load memtrack module (No such file or directory)
+05-04 13:33:37.659 E/android.os.Debug(13542): failed to load memtrack module: -2
+05-04 13:33:37.738 E/jdwp    (13542): jdwp::setsockopt(SO_SNDTIMEO)
+05-04 13:33:37.738 E/jdwp    (13542): jdwp::setsockopt(SO_RCVTIMEO)
+05-04 13:33:48.644 E/Parcel  (10823): Reading a NULL string not supported here.
+05-04 13:33:48.687 E/CellLocation(10823): create GsmCellLocation
+05-04 13:33:48.690 E/Parcel  (10823): Reading a NULL string not supported here.
+05-04 13:33:48.721 E/Parcel  (10823): Reading a NULL string not supported here.
+05-04 13:33:48.752 E/Parcel  (10823): Reading a NULL string not supported here.
+05-04 13:33:48.850 E/CellLocation(10823): create GsmCellLocation
+05-04 13:35:38.420 E/ActivityManager(  985): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=vn.android.adbwireless/.MainActivity bnds=[539,87][792,382] u=0} from pid 1633
+05-04 13:35:38.431 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:35:38.431 E/Accel   (  985): ACC batch: handle:0, en:1, maxBatchReportLatencyNs:0 
+05-04 13:35:38.431 E/Sensors (  985): sensor 0 go to common batch
+05-04 13:35:38.431 E/Sensors (  985): handleToDriver handle(0)
+05-04 13:35:38.431 E/Sensors (  985): go to batchsensor

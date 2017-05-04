@@ -1,0 +1,7 @@
+--include=monkey
+--outputdir
+D:\RF\project\out
+-C
+off
+-W
+133

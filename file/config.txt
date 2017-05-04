@@ -1,0 +1,7 @@
+#congfig info
+svnpath|D:\python\apk
+packagename|com.xinhe.ocr
+activity|.activity.mainActivity
+apkname|newOcr.apk
+way|1
+port|4723

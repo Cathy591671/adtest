@@ -1,0 +1,80 @@
+--------- beginning of system
+05-04 12:14:04.274 E/ConnectivityService( 1035): EVENT_NETWORK_INFO_CHANGED from unknown NetworkAgent
+05-04 12:14:06.479 E/ConnectivityService( 1035): Unexpected mtu value: 0, wlan0
+05-04 12:14:06.555 E/ConnectivityService( 1035): Add google dns provided for 102 - using 8.8.8.8
+05-04 12:32:39.534 E/ActivityThread( 6346): Performing stop of activity that is not resumed: {vn.android.adbwireless/vn.android.adbwireless.MainActivity}
+05-04 12:32:39.534 E/ActivityThread( 6346): java.lang.RuntimeException: Performing stop of activity that is not resumed: {vn.android.adbwireless/vn.android.adbwireless.MainActivity}
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3740)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3838)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.app.ActivityThread.access$1100(ActivityThread.java:180)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1591)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.os.Handler.dispatchMessage(Handler.java:111)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.os.Looper.loop(Looper.java:194)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at android.app.ActivityThread.main(ActivityThread.java:5824)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at java.lang.reflect.Method.invoke(Native Method)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at java.lang.reflect.Method.invoke(Method.java:372)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1010)
+05-04 12:32:39.534 E/ActivityThread( 6346): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:805)
+--------- beginning of main
+05-04 12:35:49.701 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 12:35:53.062 E/PowerManagerFlyme( 3469): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-04 12:36:15.741 E/Launcher( 2088): had load blur wallpaper
+05-04 12:36:16.581 E/UiDevice(10788): Exceuting watcher: ANR
+05-04 12:36:16.581 E/UiDevice(10788): java.lang.IllegalStateException: UiAutomation not connected!
+05-04 12:36:16.581 E/UiDevice(10788): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-04 12:36:16.581 E/UiDevice(10788): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.common.UiWatchers$1.checkForCondition(UiWatchers.java:47)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 12:36:16.581 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 12:36:16.581 E/UiDevice(10788): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-04 12:36:16.581 E/UiDevice(10788): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:20)
+05-04 12:36:16.581 E/UiDevice(10788): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-04 12:36:16.581 E/UiDevice(10788): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-04 12:36:16.582 E/UiDevice(10788): Exceuting watcher: CRASH2
+05-04 12:36:16.582 E/UiDevice(10788): java.lang.IllegalStateException: UiAutomation not connected!
+05-04 12:36:16.582 E/UiDevice(10788): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-04 12:36:16.582 E/UiDevice(10788): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.common.UiWatchers$4.checkForCondition(UiWatchers.java:107)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-04 12:36:16.582 E/UiDevice(10788): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-04 12:36:16.582 E/UiDevice(10788): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-04 12:36:16.582 E/UiDevice(10788): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:20)
+05-04 12:36:16.582 E/UiDevice(10788): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-04 12:36:16.582 E/UiDevice(10788): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): uncaught exception
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=10788, uid=2000, (need uid=1000) is not allowed to send as package android
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:170)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-04 12:36:16.623 E/UiAutomatorTestRunner(10788): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-04 12:36:21.576 E/Launcher( 2088): had load blur wallpaper
+05-04 12:36:22.580 E/GED     (10999): Failed to get GED Log Buf, err(0)
+05-04 12:36:23.502 E/Launcher( 2088): had load blur wallpaper
+05-04 12:36:24.834 E/ActivityThread( 6346): Failed to find provider info for com.google.plus.platform
