@@ -3,5 +3,5 @@ svnpath|D:\python\apk
 packagename|com.cgs.fund
 activity|.activity.mainActivity
 apkname|jinkuihua.apk
-way|2
+way|1
 port|4723

@@ -4,17 +4,20 @@ import command as cmd
 import jkh_test as test
 #import sjd_test as test
 import logger as log
+import time
 
 def func(way,ip,port,apkname,packageName):
     try:
-        #for i in range(1,31):
-            #print "%s安装了%d次"%(ip,i)
+        for i in range(1,31):
+            print "%s安装了%d次"%(ip,i)
         #卸载app
-        #cmd.adbuninstall(way,ip, packageName)
+            cmd.adbuninstall(way,ip, packageName)
         #安装app
-        #cmd.adbinstall(way,ip, apkname)
+            cmd.adbinstall(way,ip, apkname)
+            time.sleep(5)
+
         #启动appium
-        cmd.startappium(ip,port)
+        #cmd.startappium(ip,port)
         #执行appium脚本
         test.ip = ip
         log.info(ip)
@@ -25,7 +28,7 @@ def func(way,ip,port,apkname,packageName):
         test.packageName=packageName
         log.info(packageName)
         #for i in range(2):
-        test.run(ip)
+        #test.run(ip)
         #cmd.adbmonkey(way,ip,packageName,100)
 
     except Exception as e:
@@ -39,12 +42,12 @@ def func(way,ip,port,apkname,packageName):
 
 def main():
     #检查相关文件路径
-    cmd.checkpath()
+    #cmd.checkpath()
     #杀appium进程
-    cmd.killappium()
-    cmd.killadb()
+    #cmd.killappium()
+    #cmd.killadb()
     #杀adb进程
-    cmd.adbkill()
+    #cmd.adbkill()
     #启动adb服务
     cmd.adbstart()
     #获取配置文件信息
