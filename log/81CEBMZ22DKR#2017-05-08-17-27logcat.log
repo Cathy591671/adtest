@@ -1,0 +1,13 @@
+--------- beginning of system
+05-08 16:56:07.346 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 16:57:44.523 E/WiFiServiceImpl ( 1084): SAVE nid=0 uid=1000/1000
+05-08 16:58:49.136 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 17:08:22.840 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 17:11:26.086 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 17:11:26.177 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 17:15:26.836 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.meizu.flyme.update/files/
+05-08 17:21:44.463 E/ConnectivityService( 1084): EVENT_NETWORK_INFO_CHANGED from unknown NetworkAgent
+05-08 17:21:56.444 E/ConnectivityService( 1084): Unexpected mtu value: 0, wlan0
+05-08 17:21:56.485 E/ConnectivityService( 1084): Add google dns provided for 111 - using 8.8.8.8
+05-08 17:26:54.943 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+--------- beginning of main

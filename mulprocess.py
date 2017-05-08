@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from multiprocessing import Process,Pool
 import command as cmd
-import ocr_test as test
+import jkh_test as test
 #import sjd_test as test
 import logger as log
 

@@ -1,7 +1,7 @@
 #congfig info
 svnpath|D:\python\apk
-packagename|com.xinhe.ocr
+packagename|com.cgs.fund
 activity|.activity.mainActivity
-apkname|newOcr.apk
-way|1
+apkname|jinkuihua.apk
+way|2
 port|4723

@@ -1,0 +1,408 @@
+--------- beginning of system
+05-08 16:36:46.860 E/ConnectivityService( 1084): EVENT_NETWORK_INFO_CHANGED from unknown NetworkAgent
+05-08 16:36:48.982 E/ConnectivityService( 1084): Unexpected mtu value: 0, wlan0
+05-08 16:36:49.092 E/ConnectivityService( 1084): Add google dns provided for 109 - using 8.8.8.8
+05-08 16:40:26.795 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 16:45:25.566 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+--------- beginning of main
+05-08 16:46:05.545 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:46:15.739 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:46:19.027 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:46:37.187 E/Launcher( 2089): had load blur wallpaper
+05-08 16:46:38.035 E/UiDevice( 6910): Exceuting watcher: ANR
+05-08 16:46:38.035 E/UiDevice( 6910): java.lang.IllegalStateException: UiAutomation not connected!
+05-08 16:46:38.035 E/UiDevice( 6910): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.common.UiWatchers$1.checkForCondition(UiWatchers.java:47)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:26)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-08 16:46:38.035 E/UiDevice( 6910): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-08 16:46:38.036 E/UiDevice( 6910): Exceuting watcher: CRASH2
+05-08 16:46:38.036 E/UiDevice( 6910): java.lang.IllegalStateException: UiAutomation not connected!
+05-08 16:46:38.036 E/UiDevice( 6910): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:914)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:576)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.common.UiWatchers$4.checkForCondition(UiWatchers.java:107)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:848)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:899)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:35)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:26)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:124)
+05-08 16:46:38.036 E/UiDevice( 6910): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): uncaught exception
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=6910, uid=2000, (need uid=1000) is not allowed to send as package android
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:170)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-08 16:46:38.062 E/UiAutomatorTestRunner( 6910): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-08 16:47:19.127 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:47:22.338 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:47:29.256 E/AndroidRuntime( 7184): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-08 16:47:29.256 E/AndroidRuntime( 7184): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=7184, uid=2000, (need uid=1000) is not allowed to send as package android
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:104)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-08 16:47:29.256 E/AndroidRuntime( 7184): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): Error reporting crash
+05-08 16:47:29.257 E/AndroidRuntime( 7184): java.lang.RuntimeException: Bad file descriptor
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.os.BinderProxy.transactNative(Native Method)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.os.BinderProxy.transact(Binder.java:507)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2540)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2538)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.util.Singleton.get(Singleton.java:34)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:92)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:102)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-08 16:47:29.257 E/AndroidRuntime( 7184): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-08 16:48:22.413 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:48:25.691 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:48:45.523 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:49:25.772 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:49:28.998 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:50:29.089 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:50:32.332 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:51:05.071 E/Launcher( 2089): had load blur wallpaper
+05-08 16:51:10.998 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:51:14.260 E/WifiConfigStore( 1084): removeNetwork 13 key="TianXi-Work02"WPA_PSK config.id=13  crc=2783599195
+05-08 16:51:14.362 E/WifiStateMachine( 1084): Error! unhandled message{ when=-49ms what=147496 arg1=-1 obj=3 target=com.android.internal.util.StateMachine$SmHandler obj=3 }
+05-08 16:51:14.458 E/WifiStateMachine( 1084): WifiStateMachine: Leaving Connected state
+05-08 16:51:14.458 E/WifiStateMachine( 1084): L2ConnectedState exit
+05-08 16:51:14.475 E/NetworkController( 1470): No data sim selected
+05-08 16:51:14.503 E/NetworkController( 1470): No data sim selected
+05-08 16:51:14.522 E/NetworkController( 1470): No data sim selected
+05-08 16:51:14.527 E/ConnectivityService( 1084): EVENT_NETWORK_INFO_CHANGED from unknown NetworkAgent
+05-08 16:51:14.561 E/PhoneInterfaceManager( 2045): [PhoneIntfMgr] getDataEnabled: no phone subId=-1 retVal=false
+05-08 16:51:14.573 E/GpsLocationProvider( 1084): No APN found to select.
+05-08 16:51:14.579 E/PhoneInterfaceManager( 2045): [PhoneIntfMgr] getDataEnabled: no phone subId=-1 retVal=false
+05-08 16:51:14.585 E/GpsLocationProvider( 1084): No APN found to select.
+05-08 16:51:19.308 E/MPlugin ( 6904): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-08 16:51:19.463 E/MzUpdateComponent:2.0.0(15713): check interval interrupt
+05-08 16:51:20.903 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 0 ---> suppNetId=-1
+05-08 16:51:24.138 E/WifiStateMachine( 1084): WifiStateMachine Disconnected CMD_START_SCAN source -2 715, 716 -> obsolete
+05-08 16:51:25.791 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 0 ---> suppNetId=-1
+05-08 16:51:30.864 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 0 ---> suppNetId=-1
+05-08 16:51:32.404 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:51:32.590 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:51:33.904 E/WiFiServiceImpl ( 1084): CONNECT  nid=-1 uid=1000
+05-08 16:51:33.909 E/WifiConfigStore( 1084): addOrUpdateNetworkNative created netId=13
+05-08 16:51:33.993 E/WifiConfigStore( 1084): created new config netId=13 uid=1000
+05-08 16:51:33.993 E/WifiConfigStore( 1084): will read network variables netId=13
+05-08 16:51:34.008 E/WifiConfigStore( 1084):  rewrite network history for "TianXi-Work02"WPA_PSK
+05-08 16:51:34.021 E/WifiStateMachine( 1084): CONNECT_NETWORK id=13 config="TianXi-Work02" cnid=13 supstate=ScanState my state DisconnectedState uid = 1000
+05-08 16:51:34.022 E/WifiConfigStore( 1084): saveWifiConfigBSSID Setting BSSID for "TianXi-Work02"WPA_PSK to any
+05-08 16:51:34.040 E/WifiConfigStore( 1084): saveWifiConfigBSSID Setting BSSID for "TianXi-Work02"WPA_PSK to any
+05-08 16:51:34.051 E/WifiAutoJoinController ( 1084): updateConfigurationHistory found 0 networks
+05-08 16:51:34.051 E/WifiAutoJoinController ( 1084): updateConfigurationHistory try to connect to an old network!! : "TianXi-Work02"WPA_PSK
+05-08 16:51:34.052 E/WifiConfigStore( 1084):  rewrite network history for "TianXi-Work02"WPA_PSK
+05-08 16:51:34.054 E/WifiConfigStore( 1084): will read network variables netId=13
+05-08 16:51:34.108 E/NetworkController( 1470): No data sim selected
+05-08 16:51:34.204 E/WifiConfigStore( 1084): saveWifiConfigBSSID Setting BSSID for "TianXi-Work02"WPA_PSK to any
+05-08 16:51:34.212 E/WifiConfigStore( 1084): saveWifiConfigBSSID Setting BSSID for "TianXi-Work02"WPA_PSK to any
+05-08 16:51:34.227 E/WifiStateMachine( 1084): Start Dhcp Watchdog 11
+05-08 16:51:34.245 E/native  ( 1084): do suspend false
+05-08 16:51:34.248 E/WifiStateMachine( 1084): Unexpected BatchedScanResults :OK
+05-08 16:51:34.655 E/DhcpStateMachine( 1084): Error! unhandled message  { when=-394ms what=196615 target=com.android.internal.util.StateMachine$SmHandler }
+05-08 16:51:34.659 E/WifiStateMachine( 1084): WifiStateMachine: handleSuccessfulIpConfiguration and no scan results"TianXi-Work02"WPA_PSK
+05-08 16:51:34.664 E/WifiStateMachine( 1084): sendConnectedState explicitlySelected
+05-08 16:51:34.674 E/NetworkController( 1470): No data sim selected
+05-08 16:51:34.682 E/WifiStateMachine( 1084): Did not find remoteAddress {10.168.190.254} in /proc/net/arp
+05-08 16:51:34.688 E/WifiStateMachine( 1084): WifiStateMachine L2Connected CMD_START_SCAN source -2 717, 719 -> obsolete
+05-08 16:51:34.715 E/ConnectivityService( 1084): Unexpected mtu value: 0, wlan0
+05-08 16:51:34.756 E/ConnectivityService( 1084): Add google dns provided for 110 - using 8.8.8.8
+05-08 16:51:34.835 E/MzUpdateComponent:2.0.0( 2089): check interval interrupt
+05-08 16:51:34.856 E/PhoneInterfaceManager( 2045): [PhoneIntfMgr] getDataEnabled: no phone subId=-1 retVal=false
+05-08 16:51:34.898 E/GpsLocationProvider( 1084): No APN found to select.
+05-08 16:51:34.932 E/System  ( 7369): stat file error, path is /system/app/Kinguser/lib/arm64, exception is android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+05-08 16:51:34.966 E/NativeCrypto( 1775): ssl=0xf0041400 cert_verify_callback x509_store_ctx=0xe1a0a300 arg=0x0
+05-08 16:51:34.966 E/NativeCrypto( 1775): ssl=0xf0041400 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-08 16:51:35.004 E/NativeCrypto(18945): ssl=0x7f84a44600 cert_verify_callback x509_store_ctx=0x7f7b54fb88 arg=0x0
+05-08 16:51:35.004 E/NativeCrypto(18945): ssl=0x7f84a44600 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-08 16:51:35.026 E/NativeCrypto( 2089): ssl=0x7f89c82f00 cert_verify_callback x509_store_ctx=0x7f7b771b98 arg=0x0
+05-08 16:51:35.026 E/NativeCrypto( 2089): ssl=0x7f89c82f00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-08 16:51:35.053 E/HalleyAgent( 7369): detector failed on initiation.
+05-08 16:51:35.069 E/MPlugin ( 7369): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-08 16:51:35.121 E/MzGslbSdk(18945): response code:200
+05-08 16:51:35.145 E/MzGslbSdk( 1775): response code:200
+05-08 16:51:35.224 E/MzGslbSdk( 2089): response code:200
+05-08 16:51:35.307 E/System  ( 7439): stat file error, path is /system/app/Kinguser/lib/arm64, exception is android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+05-08 16:51:35.577 E/HalleyAgent( 7439): detector failed on initiation.
+05-08 16:51:35.650 E/MPlugin ( 7439): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-08 16:51:36.112 E/pingUtils(18945): Failed to connec to probe fd: 13
+05-08 16:51:37.572 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:51:37.572 E/WifiConfigStore( 1084):  rewrite network history for "TianXi-Work02"WPA_PSK
+05-08 16:51:44.095 E/WifiStateMachine( 1084): WifiStateMachine L2Connected CMD_START_SCAN source -2 718, 719 -> obsolete
+05-08 16:51:44.258 E/DhcpStateMachine( 1084): DHCPV6 failed on wlan0: 
+05-08 16:51:46.023 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:51:56.140 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:52:06.036 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:52:16.202 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:52:26.073 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:52:32.664 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:52:35.887 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:52:35.957 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:52:42.887 E/AdvancedWifiSettings( 6904): enter android.os.BuildExt.CUSTOMIZE_CHINAMOBILE is !!!false
+05-08 16:52:42.894 E/AdvancedWifiSettings( 6904): wifi state is 3
+05-08 16:52:46.479 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:52:46.643 E/pingUtils(18945): Failed to connec to probe fd: 13
+05-08 16:52:52.837 E/WifiProxySettings( 6904): mConfiguration is * ID: 13 SSID: "TianXi-Work02" BSSID: any FQDN: null REALM: null PRIO: 189
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  numAssociation 1
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  validatedInternetAccess
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  KeyMgmt: WPA_PSK Protocols: WPA RSN
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  AuthAlgorithms:
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  PairwiseCiphers: TKIP CCMP
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  GroupCiphers: WEP40 WEP104 TKIP CCMP
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  PSK: *
+05-08 16:52:52.837 E/WifiProxySettings( 6904): hex ssid:null
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  PSK1: *
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  wep: *
+05-08 16:52:52.837 E/WifiProxySettings( 6904): 
+05-08 16:52:52.837 E/WifiProxySettings( 6904): 
+05-08 16:52:52.837 E/WifiProxySettings( 6904): 
+05-08 16:52:52.837 E/WifiProxySettings( 6904): 
+05-08 16:52:52.837 E/WifiProxySettings( 6904): Enterprise config:
+05-08 16:52:52.837 E/WifiProxySettings( 6904): password NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): subject_match NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): client_cert NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): engine 0
+05-08 16:52:52.837 E/WifiProxySettings( 6904): anonymous_identity NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): ca_cert NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): identity NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): key_id NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): phase2 NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): engine_id NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): eap NULL
+05-08 16:52:52.837 E/WifiProxySettings( 6904): IP config:
+05-08 16:52:52.837 E/WifiProxySettings( 6904): IP assignment: DHCP
+05-08 16:52:52.837 E/WifiProxySettings( 6904): Proxy settings: NONE
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  uid=1000 autoJoinBSSID=anyroamingFailureBlackListTimeMilli: 1000
+05-08 16:52:52.837 E/WifiProxySettings( 6904): 
+05-08 16:52:52.837 E/WifiProxySettings( 6904):  imsi: null simSlot: null pcsc: null
+05-08 16:52:52.837 E/WifiProxySettings( 6904): triggeredLow: 0 triggeredBad: 0 triggeredNotHigh: 0
+05-08 16:52:52.837 E/WifiProxySettings( 6904): ticksLow: 0 ticksBad: 0 ticksNotHigh: 0
+05-08 16:52:52.837 E/WifiProxySettings( 6904): triggeredJoin: 1
+05-08 16:52:52.837 E/WifiProxySettings( 6904): autoJoinBailedDueToLowRssi: false
+05-08 16:52:52.837 E/WifiProxySettings( 6904): autoJoinUseAggressiveJoinAttemptThreshold: 0
+05-08 16:52:52.837 E/WifiProxySettings( 6904): pacFile: null phase1: null
+05-08 16:52:52.837 E/WifiProxySettings( 6904): Channel: 0 ChannelWidth: 0
+05-08 16:52:58.167 E/MzUpdateComponent:2.0.0(15713): check interval interrupt
+05-08 16:53:35.987 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:53:36.055 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:53:39.241 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:54:10.179 E/MzUpdateComponent:2.0.0(15713): check interval interrupt
+05-08 16:54:12.043 E/WiFiServiceImpl ( 1084): SAVE nid=0 uid=1000/1000
+05-08 16:54:12.055 E/WifiStateMachine( 1084): SAVE_NETWORK id=13 config="TianXi-Work02" nid=13 supstate=CompletedState my state ConnectedState
+05-08 16:54:12.056 E/WifiConfigStore( 1084): Setting BSSID for "TianXi-Work02"WPA_PSK to any
+05-08 16:54:12.222 E/WifiConfigStore( 1084): will read network variables netId=13
+05-08 16:54:12.242 E/WifiStateMachine( 1084): Reconfiguring proxy on connection
+05-08 16:54:12.245 E/WifiAutoJoinController ( 1084): updateConfigurationHistory found 1 networks
+05-08 16:54:12.246 E/WifiConfigStore( 1084):  rewrite network history for "TianXi-Work02"WPA_PSK
+05-08 16:54:12.248 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:54:26.676 E/Launcher( 2089): had load blur wallpaper
+05-08 16:54:31.653 E/Launcher( 2089): had load blur wallpaper
+05-08 16:54:38.328 E/Launcher( 2089): had load blur wallpaper
+05-08 16:54:39.333 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:54:42.608 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:54:47.701 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:54:54.295 E/WifiProxySettings( 6904): mConfiguration is * ID: 13 SSID: "TianXi-Work02" BSSID: null FQDN: null REALM: null PRIO: 189
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  numAssociation 1
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  validatedInternetAccess
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  KeyMgmt: WPA_PSK Protocols: WPA RSN
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  AuthAlgorithms:
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  PairwiseCiphers: TKIP CCMP
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  GroupCiphers: WEP40 WEP104 TKIP CCMP
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  PSK: *
+05-08 16:54:54.295 E/WifiProxySettings( 6904): hex ssid:null
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  PSK1: *
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  wep: *
+05-08 16:54:54.295 E/WifiProxySettings( 6904): 
+05-08 16:54:54.295 E/WifiProxySettings( 6904): 
+05-08 16:54:54.295 E/WifiProxySettings( 6904): 
+05-08 16:54:54.295 E/WifiProxySettings( 6904): 
+05-08 16:54:54.295 E/WifiProxySettings( 6904): Enterprise config:
+05-08 16:54:54.295 E/WifiProxySettings( 6904): password NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): subject_match NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): client_cert NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): engine 0
+05-08 16:54:54.295 E/WifiProxySettings( 6904): anonymous_identity NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): ca_cert NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): identity NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): key_id NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): phase2 NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): engine_id NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): eap NULL
+05-08 16:54:54.295 E/WifiProxySettings( 6904): IP config:
+05-08 16:54:54.295 E/WifiProxySettings( 6904): IP assignment: DHCP
+05-08 16:54:54.295 E/WifiProxySettings( 6904): Proxy settings: STATIC
+05-08 16:54:54.295 E/WifiProxySettings( 6904): HTTP proxy: [10.168.190.132] 8888 xl=
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  uid=1000 autoJoinBSSID=anyroamingFailureBlackListTimeMilli: 1000
+05-08 16:54:54.295 E/WifiProxySettings( 6904): 
+05-08 16:54:54.295 E/WifiProxySettings( 6904):  imsi: null simSlot: null pcsc: null
+05-08 16:54:54.295 E/WifiProxySettings( 6904): triggeredLow: 0 triggeredBad: 0 triggeredNotHigh: 0
+05-08 16:54:54.295 E/WifiProxySettings( 6904): ticksLow: 0 ticksBad: 0 ticksNotHigh: 0
+05-08 16:54:54.295 E/WifiProxySettings( 6904): triggeredJoin: 2
+05-08 16:54:54.295 E/WifiProxySettings( 6904): autoJoinBailedDueToLowRssi: false
+05-08 16:54:54.295 E/WifiProxySettings( 6904): autoJoinUseAggressiveJoinAttemptThreshold: 0
+05-08 16:54:54.295 E/WifiProxySettings( 6904): pacFile: null phase1: null
+05-08 16:54:54.295 E/WifiProxySettings( 6904): Channel: 0 ChannelWidth: 0
+05-08 16:54:56.082 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:55:01.639 E/pingUtils(18945): Failed to connec to probe fd: 13
+05-08 16:55:03.812 E/Launcher( 2089): had load blur wallpaper
+05-08 16:55:18.329 E/Launcher( 2089): had load blur wallpaper
+05-08 16:55:25.889 E/System  ( 7670): stat file error, path is /system/app/KeyChain/lib/arm64, exception is android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+05-08 16:55:25.897 E/VirusManager: PackageReceiver( 2924): removePkgBase com.cgs.fund
+05-08 16:55:42.690 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:55:45.951 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:55:58.132 E/VirusManager: PackageReceiver( 2924): addPkgBase com.cgs.fund
+05-08 16:55:58.311 E/System  ( 7772): stat file error, path is /system/app/Kinguser/lib/arm64, exception is android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+05-08 16:55:58.438 E/HalleyAgent( 7772): detector failed on initiation.
+05-08 16:55:58.458 E/MPlugin ( 7772): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-08 16:55:58.613 E/System  ( 7831): stat file error, path is /system/app/Kinguser/lib/arm64, exception is android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+05-08 16:55:58.746 E/HalleyAgent( 7831): detector failed on initiation.
+05-08 16:55:58.810 E/MPlugin ( 7831): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-08 16:56:07.346 E/Vold    (  297): Failed to find mounted volume for /storage/sdcard1/Android/data/com.cgs.fund/cache/
+05-08 16:56:07.601 E/GED     ( 7914): Failed to get GED Log Buf, err(0)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-08 16:56:41.952 E/AndroidRuntime( 7970): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=7970, uid=2000, (need uid=1000) is not allowed to send as package android
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:104)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-08 16:56:41.952 E/AndroidRuntime( 7970): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): Error reporting crash
+05-08 16:56:41.953 E/AndroidRuntime( 7970): java.lang.RuntimeException: Bad file descriptor
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.os.BinderProxy.transactNative(Native Method)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.os.BinderProxy.transact(Binder.java:507)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2540)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2538)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.util.Singleton.get(Singleton.java:34)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:92)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:102)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-08 16:56:41.953 E/AndroidRuntime( 7970): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-08 16:56:46.032 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:56:49.247 E/PowerManagerFlyme(18628): getWakeLockInfo failed: java.lang.NoSuchMethodException: getWakeLockData []
+05-08 16:56:56.251 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:57:18.914 E/AndroidRuntime( 8002): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-08 16:57:18.914 E/AndroidRuntime( 8002): java.lang.SecurityException: Permission Denial: getIntentSender() from pid=8002, uid=2000, (need uid=1000) is not allowed to send as package android
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at android.os.Parcel.readException(Parcel.java:1546)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at android.os.Parcel.readException(Parcel.java:1499)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.unregisterUiTestAutomationService(IAccessibilityManager.java:367)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at android.app.UiAutomationConnection.unregisterUiTestAutomationServiceLocked(UiAutomationConnection.java:313)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at android.app.UiAutomationConnection.disconnect(UiAutomationConnection.java:106)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at android.app.UiAutomation.disconnect(UiAutomation.java:241)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at com.android.uiautomator.core.UiAutomationShellWrapper.disconnect(UiAutomationShellWrapper.java:68)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:104)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-08 16:57:18.914 E/AndroidRuntime( 8002): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:286)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): Error reporting crash
+05-08 16:57:18.915 E/AndroidRuntime( 8002): java.lang.RuntimeException: Bad file descriptor
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.os.BinderProxy.transactNative(Native Method)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.os.BinderProxy.transact(Binder.java:507)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2540)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2538)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.util.Singleton.get(Singleton.java:34)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:92)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:102)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-08 16:57:18.915 E/AndroidRuntime( 8002): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-08 16:57:32.949 E/Launcher( 2089): had load blur wallpaper
+05-08 16:57:37.499 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:57:38.991 E/pingUtils(18945): Failed to connec to probe fd: 13
+05-08 16:57:40.310 E/WifiProxySettings( 6904): mConfiguration is * ID: 13 SSID: "TianXi-Work02" BSSID: null FQDN: null REALM: null PRIO: 189
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  numAssociation 1
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  validatedInternetAccess
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  KeyMgmt: WPA_PSK Protocols: WPA RSN
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  AuthAlgorithms:
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  PairwiseCiphers: TKIP CCMP
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  GroupCiphers: WEP40 WEP104 TKIP CCMP
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  PSK: *
+05-08 16:57:40.310 E/WifiProxySettings( 6904): hex ssid:null
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  PSK1: *
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  wep: *
+05-08 16:57:40.310 E/WifiProxySettings( 6904): 
+05-08 16:57:40.310 E/WifiProxySettings( 6904): 
+05-08 16:57:40.310 E/WifiProxySettings( 6904): 
+05-08 16:57:40.310 E/WifiProxySettings( 6904): 
+05-08 16:57:40.310 E/WifiProxySettings( 6904): Enterprise config:
+05-08 16:57:40.310 E/WifiProxySettings( 6904): password NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): subject_match NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): client_cert NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): engine 0
+05-08 16:57:40.310 E/WifiProxySettings( 6904): anonymous_identity NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): ca_cert NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): identity NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): key_id NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): phase2 NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): engine_id NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): eap NULL
+05-08 16:57:40.310 E/WifiProxySettings( 6904): IP config:
+05-08 16:57:40.310 E/WifiProxySettings( 6904): IP assignment: DHCP
+05-08 16:57:40.310 E/WifiProxySettings( 6904): Proxy settings: STATIC
+05-08 16:57:40.310 E/WifiProxySettings( 6904): HTTP proxy: [10.168.190.132] 8888 xl=
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  uid=1000 autoJoinBSSID=anyroamingFailureBlackListTimeMilli: 1000
+05-08 16:57:40.310 E/WifiProxySettings( 6904): 
+05-08 16:57:40.310 E/WifiProxySettings( 6904):  imsi: null simSlot: null pcsc: null
+05-08 16:57:40.310 E/WifiProxySettings( 6904): triggeredLow: 0 triggeredBad: 0 triggeredNotHigh: 0
+05-08 16:57:40.310 E/WifiProxySettings( 6904): ticksLow: 0 ticksBad: 0 ticksNotHigh: 0
+05-08 16:57:40.310 E/WifiProxySettings( 6904): triggeredJoin: 2
+05-08 16:57:40.310 E/WifiProxySettings( 6904): autoJoinBailedDueToLowRssi: false
+05-08 16:57:40.310 E/WifiProxySettings( 6904): autoJoinUseAggressiveJoinAttemptThreshold: 0
+05-08 16:57:40.310 E/WifiProxySettings( 6904): pacFile: null phase1: null
+05-08 16:57:40.310 E/WifiProxySettings( 6904): Channel: 0 ChannelWidth: 0
+05-08 16:57:44.523 E/WiFiServiceImpl ( 1084): SAVE nid=0 uid=1000/1000
+05-08 16:57:44.524 E/WifiStateMachine( 1084): SAVE_NETWORK id=13 config="TianXi-Work02" nid=13 supstate=CompletedState my state ConnectedState
+05-08 16:57:44.677 E/WifiConfigStore( 1084): will read network variables netId=13
+05-08 16:57:44.693 E/WifiStateMachine( 1084): Reconfiguring proxy on connection
+05-08 16:57:44.696 E/WifiAutoJoinController ( 1084): updateConfigurationHistory found 1 networks
+05-08 16:57:44.696 E/WifiConfigStore( 1084):  rewrite network history for "TianXi-Work02"WPA_PSK
+05-08 16:57:44.703 E/WifiAutoJoinController ( 1084): attemptAutoJoin() num recent config 1 current="TianXi-Work02"WPA_PSK last="TianXi-Work02"WPA_PSK ---> suppNetId=13
+05-08 16:57:45.855 E/Launcher( 2089): had load blur wallpaper
