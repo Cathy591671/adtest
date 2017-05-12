@@ -8,13 +8,13 @@ import time
 
 def func(way,ip,port,apkname,packageName):
     try:
-        for i in range(1,31):
+        for i in range(1,21):
             print "%s安装了%d次"%(ip,i)
         #卸载app
             cmd.adbuninstall(way,ip, packageName)
         #安装app
             cmd.adbinstall(way,ip, apkname)
-            time.sleep(5)
+            time.sleep(3)
 
         #启动appium
         #cmd.startappium(ip,port)
