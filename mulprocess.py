@@ -8,7 +8,7 @@ import time
 
 def func(way,ip,port,apkname,packageName):
     try:
-        for i in range(1,21):
+        for i in range(1,2):
             print "%s安装了%d次"%(ip,i)
         #卸载app
             cmd.adbuninstall(way,ip, packageName)

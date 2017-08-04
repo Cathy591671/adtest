@@ -1,0 +1,454 @@
+--------- beginning of /dev/log/system
+05-12 15:55:00.706 W/BroadcastQueueInjector( 1930): Unable to launch app com.baidu.appsearch/10274 for broadcast Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 }: process is not permitted to  auto start
+05-12 15:55:00.716 W/BroadcastQueueInjector( 1930): Unable to launch app com.tencent.mtt/10160 for broadcast Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 }: process is not permitted to  auto start
+05-12 15:55:00.716 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo.browser/10103 for broadcast Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 }: process is not permitted to  auto start
+05-12 15:55:00.786 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:00.836 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:03.116 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:05.406 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:06.736 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:06.746 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:10.546 I/ActivityManager( 1930): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=siir.es.adbWireless/.adbWireless bnds=[550,84][686,220] (has extras)} from pid 25565
+05-12 15:55:10.546 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:10.566 D/ActivityManager( 1930): Process state change from CA to T  next pss in 10000: ProcessRecord{44134718 10043:siir.es.adbWireless/u0a86}
+05-12 15:55:10.616 V/LocationPolicy( 1930): writePolicyLocked()
+05-12 15:55:10.626 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:10.666 I/ActivityManager( 1930): Config changes=480 {0.86 460mcc65535mnc zh_CN ldltr sw360dp w640dp h335dp 320dpi nrml long land uimode=12 finger -keyb/v/h -nav/h s.7 themeResource=null themeChanged=0 themeChangedFlags=0}
+05-12 15:55:10.686 E/ActivityThread(10043): Failed to find provider info for com.leadcore.sdb
+05-12 15:55:11.046 D/ActivityManager( 1930): Process state change from T  to S  next pss in 20000: ProcessRecord{43a2c1d8 25565:com.miui.home/u0a16}
+05-12 15:55:11.046 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{43f1c4a0 20988:com.android.settings/1000}
+05-12 15:55:11.126 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43a2c1d8 25565:com.miui.home/u0a16}
+05-12 15:55:11.126 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43f1c4a0 20988:com.android.settings/1000}
+05-12 15:55:11.206 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{437f8a58 9480:com.android.thememanager/9801}
+05-12 15:55:11.216 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43866f00 9424:com.miui.systemAdSolution:remote/1000}
+05-12 15:55:11.216 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43a28658 5580:android.process.media/u0a9}
+05-12 15:55:11.286 D/ConnectivityService( 1930): tetherEnabledInSettings=true, defaultVal=1,  getTetherableUsbRegexs().length=1,  getTetherableWifiRegexs().length2,  getTetherableBluetoothRegexs().length1,  getUpstreamIfaceTypes().length5
+05-12 15:55:11.326 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:11.366 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{43866f00 9424:com.miui.systemAdSolution:remote/1000}
+05-12 15:55:11.366 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{437f8a58 9480:com.android.thememanager/9801}
+05-12 15:55:11.366 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{43a28658 5580:android.process.media/u0a9}
+05-12 15:55:11.386 W/ContextImpl( 4520): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1637 android.content.ContextWrapper.bindService:517 android.content.ContextWrapper.bindService:517 miui.maml.elements.MusicController.registerListener:72 miui.maml.elements.MusicControlScreenElement.init:691 
+05-12 15:55:11.446 I/WindowManager( 1930): Screen frozen for +832ms due to Window{43b3ee50 u0 StatusBar}
+05-12 15:55:11.456 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:11.706 D/        (  135): event { THERMAL=61 }
+05-12 15:55:11.836 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:12.776 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.776 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.836 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.906 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.906 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.906 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:12.916 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:12.926 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:12.936 E/MiuiUsbService( 1930): got -1 reading
+05-12 15:55:12.936 E/MiuiUsbService( 1930): Communication error: 
+05-12 15:55:12.936 E/MiuiUsbService( 1930): java.io.IOException: Connection refused
+05-12 15:55:12.936 E/MiuiUsbService( 1930): 	at android.net.LocalSocketImpl.connectLocal(Native Method)
+05-12 15:55:12.936 E/MiuiUsbService( 1930): 	at android.net.LocalSocketImpl.connect(LocalSocketImpl.java:287)
+05-12 15:55:12.936 E/MiuiUsbService( 1930): 	at android.net.LocalSocket.connect(LocalSocket.java:130)
+05-12 15:55:12.936 E/MiuiUsbService( 1930): 	at com.miui.server.MiuiUsbService$UsbDebuggingManager.listenToSocket(MiuiUsbService.java:140)
+05-12 15:55:12.936 E/MiuiUsbService( 1930): 	at com.miui.server.MiuiUsbService$UsbDebuggingManager.run(MiuiUsbService.java:178)
+05-12 15:55:12.936 E/MiuiUsbService( 1930): 	at java.lang.Thread.run(Thread.java:841)
+05-12 15:55:12.976 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.976 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:12.986 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:12.986 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:12.986 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:13.016 I/ActivityManager( 1930): Config changes=480 {0.86 460mcc65535mnc zh_CN ldltr sw360dp w360dp h615dp 320dpi nrml long port uimode=12 finger -keyb/v/h -nav/h s.8 themeResource=null themeChanged=0 themeChangedFlags=0}
+05-12 15:55:13.036 D/NotificationService( 1930): cancelNotificationLocked r = NotificationRecord(0x439528c8: pkg=siir.es.adbWireless user=UserHandle{0} id=1 tag=null score=0: Notification(pri=0 contentView=siir.es.adbWireless/0x1090067 vibrate=default sound=default defaults=0x3 flags=0x2 kind=[null])) sendDeleted = false
+05-12 15:55:13.046 D/NotificationService( 1930): cancelNotificationLocked sound check mSoundNotification = NotificationRecord(0x439528c8: pkg=siir.es.adbWireless user=UserHandle{0} id=1 tag=null score=0: Notification(pri=0 contentView=siir.es.adbWireless/0x1090067 vibrate=default sound=default defaults=0x3 flags=0x2 kind=[null]))
+05-12 15:55:13.116 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:13.136 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:13.146 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:13.386 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{437f8a58 9480:com.android.thememanager/9801}
+05-12 15:55:13.396 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43866f00 9424:com.miui.systemAdSolution:remote/1000}
+05-12 15:55:13.396 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43a28658 5580:android.process.media/u0a9}
+05-12 15:55:13.416 D/ConnectivityService( 1930): tetherEnabledInSettings=true, defaultVal=1,  getTetherableUsbRegexs().length=1,  getTetherableWifiRegexs().length2,  getTetherableBluetoothRegexs().length1,  getUpstreamIfaceTypes().length5
+05-12 15:55:13.486 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{43866f00 9424:com.miui.systemAdSolution:remote/1000}
+05-12 15:55:13.486 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{437f8a58 9480:com.android.thememanager/9801}
+05-12 15:55:13.486 D/ActivityManager( 1930): Process state change from IF to S  next pss in 20000: ProcessRecord{43a28658 5580:android.process.media/u0a9}
+05-12 15:55:13.516 W/ContextImpl( 4520): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1637 android.content.ContextWrapper.bindService:517 android.content.ContextWrapper.bindService:517 miui.maml.elements.MusicController.registerListener:72 miui.maml.elements.MusicControlScreenElement.init:691 
+05-12 15:55:13.626 I/WindowManager( 1930): Screen frozen for +644ms due to Window{43b3ee50 u0 StatusBar}
+05-12 15:55:14.146 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.506 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.556 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.566 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.576 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.576 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.846 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.876 E/MiuiUsbService( 1930): got -1 reading
+05-12 15:55:14.876 E/MiuiUsbService( 1930): Communication error: 
+05-12 15:55:14.876 E/MiuiUsbService( 1930): java.io.IOException: No such file or directory
+05-12 15:55:14.876 E/MiuiUsbService( 1930): 	at android.net.LocalSocketImpl.connectLocal(Native Method)
+05-12 15:55:14.876 E/MiuiUsbService( 1930): 	at android.net.LocalSocketImpl.connect(LocalSocketImpl.java:287)
+05-12 15:55:14.876 E/MiuiUsbService( 1930): 	at android.net.LocalSocket.connect(LocalSocket.java:130)
+05-12 15:55:14.876 E/MiuiUsbService( 1930): 	at com.miui.server.MiuiUsbService$UsbDebuggingManager.listenToSocket(MiuiUsbService.java:140)
+05-12 15:55:14.876 E/MiuiUsbService( 1930): 	at com.miui.server.MiuiUsbService$UsbDebuggingManager.run(MiuiUsbService.java:178)
+05-12 15:55:14.876 E/MiuiUsbService( 1930): 	at java.lang.Thread.run(Thread.java:841)
+05-12 15:55:14.886 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.896 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.906 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.906 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.926 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.966 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.976 D/NotificationService( 1930): ----hasValidSound = true
+05-12 15:55:14.976 D/NotificationService( 1930): ---------mSoundNotification = NotificationRecord(0x43b86c00: pkg=siir.es.adbWireless user=UserHandle{0} id=1 tag=null score=0: Notification(pri=0 contentView=siir.es.adbWireless/0x1090067 vibrate=default sound=default defaults=0x3 flags=0x2 kind=[null]))
+05-12 15:55:14.976 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.976 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.976 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:14.986 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:14.996 D/NotificationService( 1930): ----hasValidSound = true
+05-12 15:55:14.996 D/NotificationService( 1930): ---------mSoundNotification = NotificationRecord(0x43a99a48: pkg=siir.es.adbWireless user=UserHandle{0} id=1 tag=null score=0: Notification(pri=0 contentView=siir.es.adbWireless/0x1090067 vibrate=default sound=default defaults=0x3 flags=0x2 kind=[null]))
+05-12 15:55:15.406 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:16.556 D/BaseMiuiPhoneWindowManager( 1930): keyCode:3 down:true 36933975 36933975 policyFlags=2000100 deviceId:4 isScreenOn:true
+05-12 15:55:16.556 D/WindowManager( 1930): keyguardActive=false
+05-12 15:55:16.656 D/BaseMiuiPhoneWindowManager( 1930): keyCode:3 down:false 36934074 36933975 policyFlags=2000100 deviceId:4 isScreenOn:true
+05-12 15:55:16.656 D/WindowManager( 1930): keyguardActive=false
+05-12 15:55:16.696 I/ActivityManager( 1930): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.miui.home/.launcher.Launcher} from pid 1930
+05-12 15:55:16.716 D/ActivityManager( 1930): Process state change from IF to T  next pss in 10000: ProcessRecord{43a2c1d8 25565:com.miui.home/u0a16}
+05-12 15:55:16.786 E/ActivityThread(25565): Failed to find provider info for com.leadcore.sdb
+05-12 15:55:16.816 D/LockSettingsService( 1930): ---getLong key = lockscreen.password_type defaultValue = 65536 userId = 0
+05-12 15:55:16.816 D/LockSettingsService( 1930): ---readFromDb key = lockscreen.password_type defaultValue = null userId = 0 return: 0
+05-12 15:55:16.816 D/LockSettingsService( 1930): ---getLong value = 0
+05-12 15:55:16.816 D/LockSettingsService( 1930): ---getBoolean key = lockscreen.lockedoutpermanently defaultValue = false userId = 0
+05-12 15:55:16.826 D/LockSettingsService( 1930): ---readFromDb key = lockscreen.lockedoutpermanently defaultValue = null userId = 0 return: null
+05-12 15:55:16.826 D/LockSettingsService( 1930): ---getBoolean value = null
+05-12 15:55:17.076 D/ActivityManager( 1930): Process state change from T  to CA next pss in 30000: ProcessRecord{44134718 10043:siir.es.adbWireless/u0a86}
+05-12 15:55:17.206 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:18.786 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:18.796 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:18.826 I/ActivityManager( 1930): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.MiuiSettings bnds=[292,1098][428,1234] (has extras)} from pid 25565
+05-12 15:55:18.836 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:18.836 D/ActivityManager( 1930): Process state change from IF to T  next pss in 10000: ProcessRecord{43f1c4a0 20988:com.android.settings/1000}
+05-12 15:55:19.066 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1637 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothInputDevice.doBind:245 android.bluetooth.BluetoothInputDevice.<init>:238 android.bluetooth.BluetoothAdapter.getProfileProxy:1432 
+05-12 15:55:19.066 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1637 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPan.doBind:149 android.bluetooth.BluetoothPan.<init>:141 android.bluetooth.BluetoothAdapter.getProfileProxy:1435 
+05-12 15:55:19.076 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1637 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothMap.doBind:109 android.bluetooth.BluetoothMap.<init>:102 android.bluetooth.BluetoothAdapter.getProfileProxy:1441 
+05-12 15:55:19.086 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1637 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPbap.doBind:164 android.bluetooth.BluetoothPbap.<init>:157 com.android.settings.bluetooth.PbapServerProfile.<init>:68 
+05-12 15:55:19.106 E/ActivityThread(20988): Failed to find provider info for com.leadcore.sdb
+05-12 15:55:19.626 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:19.626 D/ActivityManager( 1930): Process state change from T  to S  next pss in 20000: ProcessRecord{43a2c1d8 25565:com.miui.home/u0a16}
+05-12 15:55:19.646 D/ActivityManager( 1930): Process state change from S  to IF next pss in 20000: ProcessRecord{43a2c1d8 25565:com.miui.home/u0a16}
+05-12 15:55:21.376 I/ActivityManager( 1930): START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from pid 20988
+05-12 15:55:21.386 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:21.536 E/ActivityThread(20988): Failed to find provider info for com.leadcore.sdb
+05-12 15:55:22.086 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:23.396 D/WifiService( 1930): Connect with networkId11
+05-12 15:55:23.986 D/WifiController( 1930): battery changed pluggedType: 0
+05-12 15:55:24.036 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:24.036 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:24.846 I/ActivityManager( 1930): Start proc com.miui.weather2 for broadcast com.miui.weather2/.receiver.ReceiverUpdateWeather: pid=2017 uid=10024 gids={50024, 1028, 1015, 3003}
+05-12 15:55:24.846 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:24.896 D/ActivityManager( 1930): Process state change from N  to R  next pss in 30000: ProcessRecord{42c968a0 2017:com.miui.weather2/u0a24}
+05-12 15:55:25.006 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.006 I/ActivityManager( 1930): Killing 27608:com.android.keychain/1000 (adj 15): empty #17
+05-12 15:55:25.016 D/PowerManagerService( 1930): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:25.046 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.046 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.046 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.056 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.066 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.066 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.066 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.066 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.086 D/ActivityManager( 1930): cleanUpApplicationRecordLocked -- 27608
+05-12 15:55:25.166 D/WifiP2pService( 1930): InactiveState{ when=0 what=143375 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:25.166 D/WifiP2pService( 1930): P2pEnabledState{ when=0 what=143375 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:25.196 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.196 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.216 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.216 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1573 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.MiuiSettingsReceiver.onReceive:102 android.app.ActivityThread.handleReceiver:2432 
+05-12 15:55:25.216 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo.browser/10103 for broadcast Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 }: process is not permitted to  auto start
+05-12 15:55:25.246 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo360.mobilesafe/10128 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:25.246 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:25.256 W/BroadcastQueueInjector( 1930): Unable to launch app com.cleanmaster.mguard_cn/10095 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:25.276 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.286 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.286 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1573 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.MiuiSettingsReceiver.onReceive:159 android.app.ActivityThread.handleReceiver:2432 
+05-12 15:55:25.296 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.296 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:25.306 W/BroadcastQueueInjector( 1930): Unable to launch app com.baidu.appsearch/10274 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:25.306 W/BroadcastQueueInjector( 1930): Unable to launch app com.tencent.mtt/10160 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:25.306 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.supplicant.STATE_CHANGE flg=0x24000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:25.416 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:26.666 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.supplicant.STATE_CHANGE flg=0x24000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:26.686 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.supplicant.STATE_CHANGE flg=0x24000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:26.796 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo360.mobilesafe/10128 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:26.796 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:26.806 W/BroadcastQueueInjector( 1930): Unable to launch app com.cleanmaster.mguard_cn/10095 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:26.806 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:26.806 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:26.926 D/WifiP2pService( 1930): InactiveState{ when=0 what=143375 arg1=1 arg2=196615 obj=android.net.DhcpStateMachine@43bca190 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:26.926 D/WifiP2pService( 1930): P2pEnabledState{ when=-1ms what=143375 arg1=1 arg2=196615 obj=android.net.DhcpStateMachine@43bca190 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:26.936 D/WifiP2pService( 1930): InactiveState{ when=0 what=143375 arg1=1 arg2=196615 obj=android.net.DhcpStateMachine@43bca190 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:26.936 D/WifiP2pService( 1930): P2pEnabledState{ when=-1ms what=143375 arg1=1 arg2=196615 obj=android.net.DhcpStateMachine@43bca190 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:26.946 D/PowerManagerService( 1930): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-12 15:55:27.036 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.046 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.046 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.046 W/BroadcastQueueInjector( 1930): Unable to launch app com.baidu.appsearch/10274 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.046 W/BroadcastQueueInjector( 1930): Unable to launch app com.tencent.mtt/10160 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.046 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.supplicant.STATE_CHANGE flg=0x24000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.306 D/WifiP2pService( 1930): InactiveState{ when=0 what=143375 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:27.306 D/WifiP2pService( 1930): P2pEnabledState{ when=-1ms what=143375 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:27.326 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.326 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.336 D/ConnectivityService( 1930): Captive portal check NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "TianXi-Work02", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+05-12 15:55:27.336 D/ConnectivityService( 1930): handleCaptivePortalTrackerCheck: call captivePortalCheckComplete ni=NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "TianXi-Work02", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+05-12 15:55:27.336 D/ConnectivityService( 1930): Captive portal check NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "TianXi-Work02", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+05-12 15:55:27.336 D/ConnectivityService( 1930): handleCaptivePortalTrackerCheck: call captivePortalCheckComplete ni=NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "TianXi-Work02", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+05-12 15:55:27.346 D/ConnectivityService( 1930): ConnectivityChange for WIFI: CONNECTED/CONNECTED, apn is "TianXi-Work02"
+05-12 15:55:27.346 D/ConnectivityService( 1930): ConnectivityChange for networktype : 1,subtype is 0 / , linkID = 0, ipAddrType = 0
+05-12 15:55:27.356 D/ConnectivityService( 1930): handleConnect: lp = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }, ipAddressType = 0
+05-12 15:55:27.356 D/ConnectivityService( 1930): handleConnect: mActiveDefaultNetwork = -1, newNetType = 1
+05-12 15:55:27.356 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.356 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.356 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.366 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.366 D/ConnectivityService( 1930): handleConnect: setTeardownRequested to false 
+05-12 15:55:27.366 E/ConnectivityService( 1930): Unexpected mtu value: android.net.wifi.WifiStateTracker@437fbed0
+05-12 15:55:27.366 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:27.376 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.376 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.376 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.376 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.376 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo360.mobilesafe/10128 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.386 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.386 W/BroadcastQueueInjector( 1930): Unable to launch app com.cleanmaster.mguard_cn/10095 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.386 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:27.386 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.386 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.406 D/ConnectivityService( 1930): handleConnectivityChange:  allLp.size() = 1
+05-12 15:55:27.406 D/ConnectivityService( 1930): handleConnectivityChange: set default ip address to 10.168.190.204
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: proxy = null
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: hasProxy = true, routesChanged = true
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: route added -- 10.168.190.0/24 -> 0.0.0.0
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  false
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: route added -- 0.0.0.0/0 -> 10.168.190.254
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  true
+05-12 15:55:27.406 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:27.416 D/ConnectivityService( 1930): handleConnectivityChange: resetMask = 0, resetDns = true
+05-12 15:55:27.416 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.416 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.416 D/Nat464Xlat( 1930): requiresClat: netType=1, hasIPv4Address=true
+05-12 15:55:27.416 D/ConnectivityService( 1930): sendConnectedBroadcastDelayed: networktype is 1 / WIFIlinkID is 0
+05-12 15:55:27.426 D/ConnectivityService( 1930): makeGeneralIntent: broadcast type is android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE,network type is 1 / WIFI,subtype is 0 / 
+05-12 15:55:27.426 D/ConnectivityService( 1930): makeGeneralIntent: broadcast type is android.net.conn.CONNECTIVITY_CHANGE,network type is 1 / WIFI,subtype is 0 / 
+05-12 15:55:27.426 D/ConnectivityService( 1930): ConnectivityChange for WIFI: CONNECTED/CONNECTED, apn is "TianXi-Work02"
+05-12 15:55:27.426 D/ConnectivityService( 1930): ConnectivityChange for networktype : 1,subtype is 0 / , linkID = 0, ipAddrType = 0
+05-12 15:55:27.426 D/ConnectivityService( 1930): handleConnect: lp = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }, ipAddressType = 0
+05-12 15:55:27.426 D/ConnectivityService( 1930): handleConnect: mActiveDefaultNetwork = 1, newNetType = 1
+05-12 15:55:27.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.436 D/ConnectivityService( 1930): handleConnect: setTeardownRequested to false 
+05-12 15:55:27.436 E/ConnectivityService( 1930): Unexpected mtu value: android.net.wifi.WifiStateTracker@437fbed0
+05-12 15:55:27.436 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:27.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.466 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:27.466 V/NetworkStats( 1930): updateIfacesLocked(): simID = 0
+05-12 15:55:27.476 D/ConnectivityService( 1930): handleConnectivityChange:  allLp.size() = 1
+05-12 15:55:27.476 D/ConnectivityService( 1930): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+05-12 15:55:27.476 W/ContextImpl( 6185): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1217 android.content.ContextWrapper.sendBroadcast:365 com.miui.networkassistant.service.tm.TrafficManageService.broadCastDataUsageUpdated:815 com.miui.networkassistant.service.tm.TrafficManageService$8.onReceive:1049 android.app.LoadedApk$ReceiverDispatcher$Args.run:761 
+05-12 15:55:27.476 D/ConnectivityService( 1930): handleConnectivityChange: set default ip address to 10.168.190.204
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: proxy = null
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: hasProxy = true, routesChanged = true
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: route added -- 10.168.190.0/24 -> 0.0.0.0
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  false
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: route added -- 0.0.0.0/0 -> 10.168.190.254
+05-12 15:55:27.476 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  true
+05-12 15:55:27.486 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:27.486 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.486 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:27.496 D/ConnectivityService( 1930): handleConnectivityChange: resetMask = 0, resetDns = true
+05-12 15:55:27.496 D/Nat464Xlat( 1930): requiresClat: netType=1, hasIPv4Address=true
+05-12 15:55:27.496 D/ConnectivityService( 1930): sendConnectedBroadcastDelayed: networktype is 1 / WIFIlinkID is 0
+05-12 15:55:27.496 D/ConnectivityService( 1930): makeGeneralIntent: broadcast type is android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE,network type is 1 / WIFI,subtype is 0 / 
+05-12 15:55:27.496 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.496 D/ConnectivityService( 1930): makeGeneralIntent: broadcast type is android.net.conn.CONNECTIVITY_CHANGE,network type is 1 / WIFI,subtype is 0 / 
+05-12 15:55:27.506 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.516 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.516 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.526 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.536 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.536 V/NetworkStats( 1930): updateIfacesLocked(): simID = 0
+05-12 15:55:27.546 W/ContextImpl( 6185): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1217 android.content.ContextWrapper.sendBroadcast:365 com.miui.networkassistant.service.tm.TrafficManageService.broadCastDataUsageUpdated:815 com.miui.networkassistant.service.tm.TrafficManageService$8.onReceive:1049 android.app.LoadedApk$ReceiverDispatcher$Args.run:761 
+05-12 15:55:27.556 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.556 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.566 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.576 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.576 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.576 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.576 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.576 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.586 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.586 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.586 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.586 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.596 W/BroadcastQueueInjector( 1930): Unable to launch app com.baidu.appsearch/10274 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.596 W/BroadcastQueueInjector( 1930): Unable to launch app com.tencent.mtt/10160 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.606 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo360.mobilesafe/10128 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.606 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.616 W/BroadcastQueueInjector( 1930): Unable to launch app com.cleanmaster.mguard_cn/10095 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.616 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.616 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.626 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.626 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.626 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.626 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.626 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.636 W/BroadcastQueueInjector( 1930): Unable to launch app com.baidu.appsearch/10274 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.636 W/BroadcastQueueInjector( 1930): Unable to launch app com.tencent.mtt/10160 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.646 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo360.mobilesafe/10128 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.646 W/BroadcastQueueInjector( 1930): Unable to launch app com.UCMobile/10097 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.656 W/BroadcastQueueInjector( 1930): Unable to launch app com.cleanmaster.mguard_cn/10095 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.696 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.696 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.696 W/ContextImpl(20988): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1573 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.settings.MiuiSettingsReceiver.onReceive:159 android.app.ActivityThread.handleReceiver:2432 
+05-12 15:55:27.716 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.716 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.716 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.716 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:27.716 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:27.726 W/BroadcastQueueInjector( 1930): Unable to launch app com.baidu.appsearch/10274 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:27.726 W/BroadcastQueueInjector( 1930): Unable to launch app com.tencent.mtt/10160 for broadcast Intent { act=android.net.wifi.STATE_CHANGE flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:28.036 D/ActivityManager( 1930): Process state change from CE to S  next pss in 20000: ProcessRecord{42c968a0 2017:com.miui.weather2/u0a24}
+05-12 15:55:28.076 D/ActivityManager( 1930): Process state change from S  to CE next pss in 30000: ProcessRecord{42c968a0 2017:com.miui.weather2/u0a24}
+05-12 15:55:28.156 D/WifiP2pService( 1930): InactiveState{ when=0 what=147461 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:28.156 D/WifiP2pService( 1930): P2pEnabledState{ when=0 what=147461 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:28.156 D/WifiP2pService( 1930): DefaultState{ when=-1ms what=147461 target=com.android.internal.util.StateMachine$SmHandler }
+05-12 15:55:28.236 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:28.236 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:28.246 W/BroadcastQueueInjector( 1930): Unable to launch app com.qihoo.browser/10103 for broadcast Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 }: process is not permitted to  auto start
+05-12 15:55:28.496 D/BaseMiuiPhoneWindowManager( 1930): keyCode:3 down:true 36945906 36945906 policyFlags=2000100 deviceId:4 isScreenOn:true
+05-12 15:55:28.496 D/WindowManager( 1930): keyguardActive=false
+05-12 15:55:28.586 D/BaseMiuiPhoneWindowManager( 1930): keyCode:3 down:false 36946001 36945906 policyFlags=2000100 deviceId:4 isScreenOn:true
+05-12 15:55:28.586 D/WindowManager( 1930): keyguardActive=false
+05-12 15:55:28.596 I/ActivityManager( 1930): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.miui.home/.launcher.Launcher} from pid 1930
+05-12 15:55:28.606 D/ActivityManager( 1930): Process state change from IF to T  next pss in 10000: ProcessRecord{43a2c1d8 25565:com.miui.home/u0a16}
+05-12 15:55:28.646 E/ActivityThread(25565): Failed to find provider info for com.leadcore.sdb
+05-12 15:55:28.676 D/LockSettingsService( 1930): ---getLong key = lockscreen.password_type defaultValue = 65536 userId = 0
+05-12 15:55:28.676 D/LockSettingsService( 1930): ---readFromDb key = lockscreen.password_type defaultValue = null userId = 0 return: 0
+05-12 15:55:28.676 D/LockSettingsService( 1930): ---getLong value = 0
+05-12 15:55:28.676 D/LockSettingsService( 1930): ---getBoolean key = lockscreen.lockedoutpermanently defaultValue = false userId = 0
+05-12 15:55:28.686 D/LockSettingsService( 1930): ---readFromDb key = lockscreen.lockedoutpermanently defaultValue = null userId = 0 return: null
+05-12 15:55:28.686 D/LockSettingsService( 1930): ---getBoolean value = null
+05-12 15:55:28.836 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:28.846 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:28.856 D/ConnectivityService( 1930): handleConnectivityChange:  allLp.size() = 1
+05-12 15:55:28.856 D/ConnectivityService( 1930): handleConnectivityChange: addresses changed linkProperty[1]: resetMask=0
+05-12 15:55:28.856 D/ConnectivityService( 1930):    car=removed=[] added=[fe80::fe64:baff:fe38:8b85/64,]
+05-12 15:55:28.866 D/ConnectivityService( 1930): handleConnectivityChange: set default ip address to 10.168.190.204
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: proxy = null
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: hasProxy = true, routesChanged = true
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: route added -- 10.168.190.0/24 -> 0.0.0.0
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  false
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,fe80::fe64:baff:fe38:8b85/64,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: route added -- 0.0.0.0/0 -> 10.168.190.254
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  true
+05-12 15:55:28.866 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.876 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,fe80::fe64:baff:fe38:8b85/64,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.876 D/ConnectivityService( 1930): handleConnectivityChange: resetMask = 0, resetDns = true
+05-12 15:55:28.876 D/Nat464Xlat( 1930): requiresClat: netType=1, hasIPv4Address=true
+05-12 15:55:28.876 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:28.886 D/ConnectivityService( 1930): handleDnsConfigurationChange: E
+05-12 15:55:28.896 D/ConnectivityService( 1930): handleConnectivityChange:  allLp.size() = 1
+05-12 15:55:28.896 D/ConnectivityService( 1930): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+05-12 15:55:28.906 D/ConnectivityService( 1930): handleConnectivityChange: set default ip address to 10.168.190.204
+05-12 15:55:28.906 D/ConnectivityService( 1930): updateRoutes: proxy = null
+05-12 15:55:28.906 D/ConnectivityService( 1930): updateRoutes: hasProxy = true, routesChanged = true
+05-12 15:55:28.906 D/ConnectivityService( 1930): updateRoutes: route added -- 10.168.190.0/24 -> 0.0.0.0
+05-12 15:55:28.906 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  false
+05-12 15:55:28.906 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,fe80::fe64:baff:fe38:8b85/64,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.926 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,fe80::fe64:baff:fe38:8b85/64,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.926 D/ConnectivityService( 1930): updateRoutes: route added -- 0.0.0.0/0 -> 10.168.190.254
+05-12 15:55:28.926 D/ConnectivityService( 1930): updateRoutes: isDefaultRoute is  true
+05-12 15:55:28.926 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,fe80::fe64:baff:fe38:8b85/64,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.926 D/ConnectivityService( 1930): updateRoutes: LinkProperties P = {InterfaceName: wlan0 LinkAddresses: [10.168.190.204/24,fe80::fe64:baff:fe38:8b85/64,]  Routes: [10.168.190.0/24 -> 0.0.0.0,0.0.0.0/0 -> 10.168.190.254,] DnsAddresses: [219.141.140.10,219.141.136.10,] Domains: MTU: 0HttpProxy: [ProxyProperties.mHost == null] }
+05-12 15:55:28.936 D/ConnectivityService( 1930): handleConnectivityChange: resetMask = 0, resetDns = true
+05-12 15:55:28.946 D/Nat464Xlat( 1930): requiresClat: netType=1, hasIPv4Address=true
+05-12 15:55:28.986 D/ActivityManager( 1930): Process state change from T  to IF next pss in 20000: ProcessRecord{43f1c4a0 20988:com.android.settings/1000}
+05-12 15:55:29.136 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:29.166 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:29.166 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:29.846 W/BroadcastQueueInjector( 1930): Unable to launch app com.cleanmaster.mguard_cn/10095 for broadcast Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }: process is not permitted to  auto start
+05-12 15:55:29.846 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:29.846 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:29.926 W/ActivityManager( 1930): Killing processes SecurityCenter kill com.miui.networkassistant.shadow at adjustment 1
+05-12 15:55:29.926 I/ActivityManager( 1930): Killing 10631:com.miui.networkassistant.shadow/1000 (adj 1): SecurityCenter kill com.miui.networkassistant.shadow
+05-12 15:55:29.946 D/ActivityManager( 1930): cleanUpApplicationRecordLocked -- 10631
+05-12 15:55:29.956 D/WifiService( 1930): Client connection lost with reason: 4
+05-12 15:55:29.956 I/ActivityThread( 6185): Removing dead content provider:android.content.ContentProviderProxy@42e91868
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/JobScheduler.Conn( 1930): Received connectivity event: android.net.conn.CONNECTIVITY_CHANGE u0
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.436 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.436 D/ConnectivityService( 1930): setProvNotificationVisible: E visible=false networkType=1 extraInfo=null url=null
+05-12 15:55:30.446 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.gallery/.discovery.GalleryJobService jId=1, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.gallery/.discovery.GalleryJobService jId=3, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.analytics/.internal.JobSchedulerService jId=1, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.calendar/com.miui.calendar.job.LocalJobService jId=0, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.securitycenter/.service.ConnectivityChangeJobService jId=100, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.gallery/.discovery.GalleryJobService jId=2, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.core/com.miui.internal.server.CoreJobService jId=1, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.mms/.update.JobScheduleService jId=1, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.updater/.DailyCheckJobService jId=100, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.settings/.cloud.CloudJobService jId=1, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.settings/.cloud.ConnectivityChangeJobService jId=2, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.gallery/.discovery.GalleryJobService jId=0, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.mipub/.service.MipubJobService jId=100, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.miui.whetstone/.cloudManager.CloudControlJobService jId=17493000, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.settings/.cloud.ConnectivityChangeJobService jId=2, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 V/JobSchedulerService( 1930): isReadyToBeExecutedLocked: com.android.calendar/com.miui.calendar.job.RemoteJobService jId=1, u0 ready=false pending=false active=false userRunning=true
+05-12 15:55:30.446 D/JobSchedulerService( 1930): maybeQueueReadyJobsForExecutionLockedH: Not running anything.
+05-12 15:55:30.446 D/JobSchedulerService( 1930): idle=0 connectivity=0 charging=0 tot=0
+05-12 15:55:30.446 D/JobSchedulerService( 1930): pending queue: 0 jobs.
+05-12 15:55:30.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.456 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.456 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.466 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.466 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.466 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.466 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.466 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.466 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.466 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.466 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.466 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.466 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.466 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.476 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.476 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.476 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.476 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.476 D/ConnectivityService( 1930): getNetworkInfo:networkType 1 is connected,apn is "TianXi-Work02"
+05-12 15:55:30.476 D/ConnectivityService( 1930): getActiveNetworkInfo 
+05-12 15:55:30.476 D/ConnectivityService( 1930): getNetworkInfo:networkType
