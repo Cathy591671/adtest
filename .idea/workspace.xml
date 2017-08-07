@@ -42,8 +42,8 @@
       <file leaf-file-name="command.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61921096">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5866209">
+              <caret line="24" column="25" selection-start-line="17" selection-start-column="20" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -880,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/command.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61921096">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5866209">
+          <caret line="24" column="25" selection-start-line="17" selection-start-column="20" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
