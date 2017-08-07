@@ -154,39 +154,39 @@ def adblogcat(way,ip,packageName):
     if str.strip()=="":
         log.info("packagename is  %s ,，can not get the pid" % (packageName))
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time"
-        log.info("打印所有进程的日志的指令为：" + log_cmd)
+        log.info("print all the logs command is ：" + log_cmd)
         log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
         #print log_info
         time.sleep(10)
         log_info.terminate()
-        log.debug("设备ip为"+ip+"的日志打印完成")
+        log.debug("device "+ip+" has complete print the log")
     else:
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time *:E |findstr '%s' " % (str)
-        log.info("打印设备ip为%s的日志指令为：" % (ip) + log_cmd)
+        log.info("print %s log command is ：" % (ip) + log_cmd)
         log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
         #print log_info
         #time.sleep(10)
         log_info.wait()
         log_info.terminate()
-        log.debug("设备ip为" + ip + "的日志打印完成")
+        log.debug("deivce " + ip + "log print has been finished")
 
 def adbuninstall(way,ip,packageName):
-    log.debug("检查设备ip为"+ip+"的手机上是否安装了包"+packageName)
-    find_cmd="adb -s "+ phonecon(way,ip)+"  shell pm list package|findstr %s"%(packageName)
-    log.info("检查是否安装包的指令为：" + find_cmd)
+    log.debug("check if "+ip+"is installed "+packageName)
+    find_cmd="adb -s "+ phonecon(way,ip)+"  shell pm list package|grep %s"%(packageName)
+    log.info("the check command is ：" + find_cmd)
     find_info=os.popen(find_cmd)
     length= len(find_info.read())
     #print len(find_info.read()), length <= 0
     if length <= 0 :
-        log.info("设备ip为%s上没有安装包%s"%(ip,packageName))
+        log.info("device %s is nod installed %s"%(ip,packageName))
     else:
-        log.info("设备ip为%s上安装了包%s"%(ip,packageName))
-        log.debug("开始卸载包")
+        log.info("device %s is installed %s"%(ip,packageName))
+        log.debug("start uninstalled the package")
         uninstall_cmd="adb -s "+ phonecon(way,ip)+"  shell pm uninstall %s"%(packageName)
-        log.info("卸载包的命令为：" + uninstall_cmd)
+        log.info("the uninstall command is ：" + uninstall_cmd)
         uninstall_info=os.popen(uninstall_cmd)
         print uninstall_info.read()
-        log.debug("卸载包完成")
+        log.debug("uninstall complete")
 
 def svncheck(svnpath):
     update_cmd = 'svn update '+svnpath
