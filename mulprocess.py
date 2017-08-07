@@ -9,7 +9,7 @@ import time
 def func(way,ip,port,apkname,packageName):
     try:
         for i in range(1,2):
-            print "%s安装了%d次"%(ip,i)
+            print "%s is installed %d times"%(ip,i)
         #卸载app
             cmd.adbuninstall(way,ip, packageName)
         #安装app
@@ -51,7 +51,7 @@ def main():
     #启动adb服务
     cmd.adbstart()
     #获取配置文件信息
-    dics=cmd.texttodic("\\config.txt")
+    dics=cmd.texttodic("/config.txt")
     key=dics.keys()
     log.info(key)
     dic=dics[key[0]]
@@ -66,10 +66,10 @@ def main():
     way = dic['way']
     port = dic['port']
     # 检查svn，判断是否通过svn安卓
-    apkname=cmd.svncheck(svnpath)
+    #apkname=cmd.svncheck(svnpath)
     # svn有更新，对已经获取到的name重赋值
-    if apkname is not None:
-        name=apkname
+    #if apkname is not None:
+        #name=apkname
     pool = Pool(processes=5)
     ipfile="\\ip.txt"
     #way=1 通过wifi连接设备

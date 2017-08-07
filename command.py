@@ -11,9 +11,9 @@ if sys.getdefaultencoding() != defaultencoding:
     reload(sys)
     sys.setdefaultencoding(defaultencoding)
 
-log_path=os.getcwd()+"\\log"
-file_path=os.getcwd()+"\\file"
-img_path=os.getcwd()+"\\img"
+log_path=os.getcwd()+"/log"
+file_path=os.getcwd()+"/file"
+img_path=os.getcwd()+"/img"
 def checkpath():
     if os.path.exists(file_path):
         pass
@@ -25,36 +25,36 @@ def checkpath():
         os.mkdir(img_path)
         
 def adbkill():
-    log.debug("开始关闭adb服务")
+    log.debug("start shutdown the adb service")
     kill_cmd = "adb kill-server"
-    log.info("关闭adb服务的指令是：" + kill_cmd)
+    log.info("the shutdown adb command is ：" + kill_cmd)
     os.popen(kill_cmd)
 
 def adbstart():
-    log.debug("开始启动adb服务")
+    log.debug("start the adb service")
     start_cmd = "adb start-server"
-    log.info("关闭adb服务的指令是：" + start_cmd)
+    log.info("the start adb command is ：" + start_cmd)
     os.popen(start_cmd)
 
 def adbcon(ip):
     #os.system("adb kill-server")
-    log.debug("开始连接手机，ip为:"+ip)
+    log.debug("start to connect the devices，ip为:"+ip)
     con_cmd="adb connect %s"%(ip)
-    log.info("手机连接的指令是：" + con_cmd)
+    log.info("the connnect command is ：" + con_cmd)
     con_info=os.popen(con_cmd).read()
     #con_info=os.system(con_cmd)
     #print con_info.read()
     if "unable" in con_info:
-        log.error("请查看手机ip正确，并且安装了wireless")
+        log.error("please check the ip and make sure you've install wireless")
         return False
     else:
         iscon=adbdev(ip)
         if "unauthorized" in iscon or "offline" in iscon:
-            log.debug("重新连接")
+            log.debug("reconnnect")
             adbcon(ip)
             #return False
         else:
-            log.info("ip为:"+ip+"的手机连接成功")
+            log.info("ip :"+ip+" is connected")
         return True
 '''
 def adbcon(ip):
@@ -74,15 +74,15 @@ def adbcon(ip):
 
 def adbdev(ip):
     check_cmd="adb devices|findstr %s" %(ip)
-    log.info("检查连接状态的指令为："+  check_cmd)
+    log.info("check connection status commmand is  ："+  check_cmd)
     check_info=os.popen(check_cmd).read()
     print check_info
-    log.info("连接信息为:"+check_info)
+    log.info("connect info is :"+check_info)
     return check_info
 
 def adbmdev():
     check_cmd="adb devices"
-    log.info("检查所有连接的设备指令为："+  check_cmd)
+    log.info("check the connected devices command is ："+  check_cmd)
     check_info=os.popen(check_cmd)
     log.info(check_info)
     #log.info("连接信息为:"+check_info)
@@ -110,21 +110,21 @@ def phonecon(way,ip):
 
 def adbgetversion(way,ip):
     getversion_cmd="adb -s "+ phonecon(way,ip)+"  shell getprop ro.build.version.release"
-    log.info("获取安卓版本号的指令为："+  getversion_cmd)
+    log.info("get android version command is ："+  getversion_cmd)
     getversion_info=os.popen(getversion_cmd).read()
-    log.info("安卓版本号:"+getversion_info)
+    log.info("android version is :"+getversion_info)
     return getversion_info.strip()
 
 def adbgetpro(way,ip):
     getprono_cmd="adb  -s "+ phonecon(way,ip)+"  shell getprop ro.product.model"
-    log.info("获取安卓手机型号的指令为："+  getprono_cmd)
+    log.info("to get the device type command is ："+  getprono_cmd)
     getprono_info=os.popen(getprono_cmd).read()
-    log.info("安卓手机型号:"+getprono_info)
+    log.info("the device type is :"+getprono_info)
     return getprono_info.strip()
 
 def adblogcat(way,ip,packageName):
     tm = time.strftime('%Y-%m-%d-%H-%M', time.localtime(time.time()))
-    log.debug("开始获取log日志")
+    log.debug("start to collect the log")
     log_filename =log_path+"\\"+ip+"#"+tm+"logcat.log"
     logcat_file = open(log_filename, 'w')
     #search the pid of packagename
@@ -152,7 +152,7 @@ def adblogcat(way,ip,packageName):
         str = ' '.join([str, pid.strip()])
     '''
     if str.strip()=="":
-        log.info("包名为 %s 的进程没有启动，获取不到pid" % (packageName))
+        log.info("packagename is  %s ,，can not get the pid" % (packageName))
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time"
         log.info("打印所有进程的日志的指令为：" + log_cmd)
         log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
@@ -372,7 +372,7 @@ def texttodic(filename):
         log.error(datafile + "文件不存在")
 
 def texttolist(filename):
-    log.debug('将文本转化为列表类型')
+    log.debug('file to list')
     datafile=file_path+filename
     log.info(datafile)
     if os.path.exists(datafile):
@@ -384,7 +384,7 @@ def texttolist(filename):
         f.close()
         return list
     else:
-        log.error(datafile + "文件不存在")
+        log.error(datafile + "file is not exist")
 
 def analyzelog():
     log.debug("分析monkey的log日志")
