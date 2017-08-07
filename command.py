@@ -73,7 +73,7 @@ def adbcon(ip):
 '''
 
 def adbdev(ip):
-    check_cmd="adb devices|findstr %s" %(ip)
+    check_cmd="adb devices|grep %s" %(ip)
     log.info("check connection status commmand is  ："+  check_cmd)
     check_info=os.popen(check_cmd).read()
     print check_info
@@ -128,7 +128,7 @@ def adblogcat(way,ip,packageName):
     log_filename =log_path+"\\"+ip+"#"+tm+"logcat.log"
     logcat_file = open(log_filename, 'w')
     #search the pid of packagename
-    ps_cmd = "adb -s " + phonecon(way, ip) + "  shell ps|findstr %s" % (packageName)
+    ps_cmd = "adb -s " + phonecon(way, ip) + "  shell ps|grep %s" % (packageName)
     log.info(ps_cmd)
     ps_info = os.popen(ps_cmd)
     str = ""
@@ -161,7 +161,7 @@ def adblogcat(way,ip,packageName):
         log_info.terminate()
         log.debug("device "+ip+" has complete print the log")
     else:
-        log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time *:E |findstr '%s' " % (str)
+        log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time *:E |grep '%s' " % (str)
         log.info("print %s log command is ：" % (ip) + log_cmd)
         log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
         #print log_info
@@ -172,21 +172,28 @@ def adblogcat(way,ip,packageName):
 
 def adbuninstall(way,ip,packageName):
     log.debug("check if "+ip+"is installed "+packageName)
+    print("check if "+ip+"is installed "+packageName)
     find_cmd="adb -s "+ phonecon(way,ip)+"  shell pm list package|grep %s"%(packageName)
     log.info("the check command is ：" + find_cmd)
+    print ("the check command is ：" + find_cmd)
     find_info=os.popen(find_cmd)
     length= len(find_info.read())
     #print len(find_info.read()), length <= 0
     if length <= 0 :
         log.info("device %s is nod installed %s"%(ip,packageName))
+        print("device %s is nod installed %s"%(ip,packageName))
     else:
         log.info("device %s is installed %s"%(ip,packageName))
         log.debug("start uninstalled the package")
+        print("device %s is installed %s"%(ip,packageName))
+        print("start uninstalled the package")
         uninstall_cmd="adb -s "+ phonecon(way,ip)+"  shell pm uninstall %s"%(packageName)
         log.info("the uninstall command is ：" + uninstall_cmd)
+        print("the uninstall command is ：" + uninstall_cmd)
         uninstall_info=os.popen(uninstall_cmd)
         print uninstall_info.read()
         log.debug("uninstall complete")
+        print("uninstall complete")
 
 def svncheck(svnpath):
     update_cmd = 'svn update '+svnpath
@@ -213,15 +220,19 @@ def svncheck(svnpath):
 
 
 def adbinstall(way,ip,name):
-    log.debug("在设备ip为"+ip+"上开始安装"+name)
+    log.debug("device "+ip+" is starting install "+name)
+    print("device "+ip+" is starting install "+name)
     #install_cmd='adb -s "+ phonecon(way,ip)+"  shell pm install D:\python\\apk\%s'%(ip,name)
     install_cmd = "adb -s "+ phonecon(way,ip)+"  install -l -r %s\%s" % (file_path,name)
-    log.info("安装指令为" + install_cmd)
+    log.info("the install command is " + install_cmd)
+    print("the install command is " + install_cmd)
     install_info= subprocess.Popen(install_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    log.info("安装进行中")
+    log.info("installing...")
+    print("installing...")
     out=install_info.stdout.read()
     err=install_info.stderr.read()
     log.info(out)
+    print(out)
     if err !="":
         log.error(err)
 
@@ -235,7 +246,7 @@ def startappium(ip,port):
     srartappium_info=os.system(startappium_cmd)
     #srartappium_info = subprocess.Popen(startappium_cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     #srartappium_info.wait()
-    list_cmd = "tasklist |findstr node"
+    list_cmd = "tasklist |grep node"
     #print list_cmd
     list_info = os.popen(list_cmd)
     log.info(list_info.read())
@@ -273,7 +284,7 @@ def adbmeninfo(way,ip,packageName):
 
 def adbcpuinfo(way,ip,packageName):
     tm = time.strftime('%d-%H-%M-%S', time.localtime(time.time()))
-    cpu_cmd = "adb  -s "+ phonecon(way,ip)+"  shell dumpsys cpuinfo|findstr %s >%s/%s%s-cpu.txt" % (packageName,log_path,ip,tm)
+    cpu_cmd = "adb  -s "+ phonecon(way,ip)+"  shell dumpsys cpuinfo|grep %s >%s/%s%s-cpu.txt" % (packageName,log_path,ip,tm)
     log.info("输入的指令为：" + cpu_cmd)
     input_info = os.popen(cpu_cmd)
 
@@ -328,7 +339,7 @@ def adbnet(way,ip,packageName):
     fo.write(currentTime + ',' + str(rx_b) + ','+ str(tx_b)+ ','+str(rxtx) +'\n')
 
 def adbelectric(way,ip,packagename):
-    ps_cmd="adb -s "+ phonecon(way,ip)+"  shell ps|findstr %s"%(packagename)
+    ps_cmd="adb -s "+ phonecon(way,ip)+"  shell ps|grep %s"%(packagename)
     log.info(ps_cmd)
     ps_info = os.popen(ps_cmd)
     uid=""
@@ -338,7 +349,7 @@ def adbelectric(way,ip,packagename):
         log.info(uid_list)
         uid = uid_list[0].replace("_","")
         log.info(uid)
-    elec_cmd="adb -s "+ phonecon(way,ip)+"  shell dumpsys batterystats %s |findstr %s"%(packagename,uid)
+    elec_cmd="adb -s "+ phonecon(way,ip)+"  shell dumpsys batterystats %s |grep %s"%(packagename,uid)
     log.info(elec_cmd)
     elec_info=os.popen(elec_cmd)
     log.info(elec_info.readline())
