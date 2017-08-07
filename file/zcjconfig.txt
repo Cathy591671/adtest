@@ -1,4 +1,0 @@
-svnpath|D:\python\apk
-packageName|com.djr.zichanjia
-activity|.activity.mainActivity
-apkname|zichanjia15.apk

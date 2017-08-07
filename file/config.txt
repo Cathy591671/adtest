@@ -1,7 +1,0 @@
-#congfig info
-svnpath|D:\python\apk
-packagename|com.cgs.fund
-activity|.activity.mainActivity
-apkname|jinkuihua.apk
-way|2
-port|4723
