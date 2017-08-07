@@ -181,7 +181,7 @@ def adbuninstall(way,ip,packageName):
     #print len(find_info.read()), length <= 0
     if length <= 0 :
         log.info("device %s is nod installed %s"%(ip,packageName))
-        print("device %s is nod installed %s"%(ip,packageName))
+        print("device %s is not installed %s"%(ip,packageName))
     else:
         log.info("device %s is installed %s"%(ip,packageName))
         log.debug("start uninstalled the package")
@@ -223,7 +223,7 @@ def adbinstall(way,ip,name):
     log.debug("device "+ip+" is starting install "+name)
     print("device "+ip+" is starting install "+name)
     #install_cmd='adb -s "+ phonecon(way,ip)+"  shell pm install D:\python\\apk\%s'%(ip,name)
-    install_cmd = "adb -s "+ phonecon(way,ip)+"  install -l -r %s\%s" % (file_path,name)
+    install_cmd = "adb -s "+ phonecon(way,ip)+"  install -l -r %s/%s" % (file_path,name)
     log.info("the install command is " + install_cmd)
     print("the install command is " + install_cmd)
     install_info= subprocess.Popen(install_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
