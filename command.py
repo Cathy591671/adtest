@@ -12,7 +12,7 @@ if sys.getdefaultencoding() != defaultencoding:
     sys.setdefaultencoding(defaultencoding)
 
 log_path=os.getcwd()+"/log"
-file_path="/E/djangoProject/adtest/file"
+file_path="/usr/src/config"
 img_path=os.getcwd()+"/img"
 def checkpath():
     if os.path.exists(file_path):
