@@ -12,7 +12,7 @@ if sys.getdefaultencoding() != defaultencoding:
     sys.setdefaultencoding(defaultencoding)
 
 log_path=os.getcwd()+"/log"
-file_path=os.getcwd()+"/file"
+file_path="/E/djangoProject/adtest/file"
 img_path=os.getcwd()+"/img"
 def checkpath():
     if os.path.exists(file_path):
@@ -125,7 +125,7 @@ def adbgetpro(way,ip):
 def adblogcat(way,ip,packageName):
     tm = time.strftime('%Y-%m-%d-%H-%M', time.localtime(time.time()))
     log.debug("start to collect the log")
-    log_filename =log_path+"\\"+ip+"#"+tm+"logcat.log"
+    log_filename =log_path+"/"+ip+"#"+tm+"logcat.log"
     logcat_file = open(log_filename, 'w')
     #search the pid of packagename
     ps_cmd = "adb -s " + phonecon(way, ip) + "  shell ps|grep %s" % (packageName)
