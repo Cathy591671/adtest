@@ -357,9 +357,11 @@ def adbelectric(way,ip,packagename):
     log.info(elec_info.readline())
 
 def texttodic(filename):
-    log.debug("将文本转化为字典类型")
+    log.debug("file to dict")
+    print("file to dict")
     datafile = file_path+filename
     log.info(datafile)
+    print(datafile)
     if os.path.exists(datafile):
         f = open(datafile)
         dic = dict()
@@ -382,7 +384,8 @@ def texttodic(filename):
         f.close()
         return dic
     else:
-        log.error(datafile + "文件不存在")
+        print(datafile + "is not exist!!!")
+        log.error(datafile + "is not exist!!!")
 
 def texttolist(filename):
     log.debug('file to list')
