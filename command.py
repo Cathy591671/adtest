@@ -226,15 +226,17 @@ def adbinstall(way,ip,name):
     install_cmd = "adb -s "+phonecon(way,ip)+" install -l -r %s/%s" % (file_path,name)
     log.info("the install command is " + install_cmd)
     print("the install command is ：" + install_cmd)
-    install_info= subprocess.Popen(install_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    #install_info= subprocess.Popen(install_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    install_info=os.popen(install_cmd)
     log.info("installing...")
     print("installing...")
-    out=install_info.stdout.read()
-    err=install_info.stderr.read()
-    log.info(out)
-    print(out)
-    if err !="":
-        log.error(err)
+    print install_info.read()
+    #out=install_info.stdout.read()
+    #err=install_info.stderr.read()
+    #log.info(out)
+    #print(out)
+    #if err !="":
+        #log.error(err)
 
 def startappium(ip,port):
     log.debug("为IP为"+ip+"开始启动appium服务")
