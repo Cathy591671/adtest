@@ -38,7 +38,7 @@ def adbstart():
 
 def adbcon(ip):
     #os.system("adb kill-server")
-    log.debug("start to connect the devices，ip为:"+ip)
+    #log.debug("start to connect the devices，ip为:"+ip)
     con_cmd="adb connect %s"%(ip)
     #log.info("the connnect command is ：" + con_cmd)
     con_info=os.popen(con_cmd).read()
@@ -176,28 +176,28 @@ def adblogcat(way,ip,packageName):
         print("deivce " + ip + "log print has been finished")
 
 def adbuninstall(way,ip,packageName):
-    log.debug("check if "+ip+"is installed "+packageName)
+    #log.debug("check if "+ip+"is installed "+packageName)
     print("check if "+ip+"is installed "+packageName)
     find_cmd="adb -s "+ phonecon(way,ip)+"  shell pm list package|grep %s"%(packageName)
-    log.info("the check command is ：" + find_cmd)
+    #log.info("the check command is ：" + find_cmd)
     print ("the check command is ：" + find_cmd)
     find_info=os.popen(find_cmd)
     length= len(find_info.read())
     #print len(find_info.read()), length <= 0
     if length <= 0 :
-        log.info("device %s is nod installed %s"%(ip,packageName))
+        #log.info("device %s is nod installed %s"%(ip,packageName))
         print("device %s is not installed %s"%(ip,packageName))
     else:
-        log.info("device %s is installed %s"%(ip,packageName))
-        log.debug("start uninstalled the package")
+        #log.info("device %s is installed %s"%(ip,packageName))
+        #log.debug("start uninstalled the package")
         print("device %s is installed %s"%(ip,packageName))
         print("start uninstalled the package")
         uninstall_cmd="adb -s "+ phonecon(way,ip)+"  shell pm uninstall %s"%(packageName)
-        log.info("the uninstall command is ：" + uninstall_cmd)
+        #log.info("the uninstall command is ：" + uninstall_cmd)
         print("the uninstall command is ：" + uninstall_cmd)
         uninstall_info=os.popen(uninstall_cmd)
         print uninstall_info.read()
-        log.debug("uninstall complete")
+        #log.debug("uninstall complete")
         print("uninstall complete")
 
 def svncheck(svnpath):
@@ -225,7 +225,7 @@ def svncheck(svnpath):
 
 
 def adbinstall(way,ip,name):
-    log.debug("device "+ip+" is starting install "+name)
+    #log.debug("device "+ip+" is starting install "+name)
     print("device "+ip+" is starting install "+name)
     #install_cmd='adb -s "+ phonecon(way,ip)+"  shell pm install D:\python\\apk\%s'%(ip,name)
     install_cmd = "adb -s "+phonecon(way,ip)+" install -l -r %s/%s" % (file_path,name)
@@ -236,7 +236,9 @@ def adbinstall(way,ip,name):
     #log.info("installing...")
     print("installing...")
     if "Success" in install_info:
-        log.info("成功安装")
+        x=install_info.split("in ")[-1]
+        costTime=x.split(")")[0]
+        log.info("安装耗时%s"%(costTime))
         return True
     #out=install_info.stdout.read()
     #err=install_info.stderr.read()
@@ -314,7 +316,7 @@ def adbnet(way,ip,packageName):
     currentTime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     #获取app应用的uid
     uid_cmd="adb -s "+ phonecon(way,ip)+"  shell su -c cat /data/system/packages.list|grep %s"%(packageName)
-    log.info(uid_cmd)
+    #log.info(uid_cmd)
     uid_info = subprocess.Popen(uid_cmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     uid=""
     for i in uid_info.stdout.readlines():
@@ -392,12 +394,12 @@ def texttodic(filename):
         return dic
     else:
         print(datafile + "is not exist!!!")
-        log.error(datafile + "is not exist!!!")
+        #log.error(datafile + "is not exist!!!")
 
 def texttolist(filename):
-    log.debug('file to list')
+    #log.debug('file to list')
     datafile=file_path+filename
-    log.info(datafile)
+    #log.info(datafile)
     if os.path.exists(datafile):
         f=open(datafile)
         list=[]
@@ -407,7 +409,7 @@ def texttolist(filename):
         f.close()
         return list
     else:
-        log.error(datafile + "file is not exist")
+        #log.error(datafile + "file is not exist")
 
 def analyzelog():
     log.debug("分析monkey的log日志")

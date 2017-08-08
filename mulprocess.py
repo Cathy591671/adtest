@@ -18,7 +18,7 @@ def func(way,ip,port,apkname,packageName):
             if install_result:
                 x=x+1
             time.sleep(3)
-            log.info("共成功安装%d次"%(x))
+            log.info("成功安装%d次"%(x))
 
         #启动appium
         #cmd.startappium(ip,port)
