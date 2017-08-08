@@ -24,13 +24,13 @@ def func(way,ip,port,apkname,packageName):
         #cmd.startappium(ip,port)
         #执行appium脚本
         test.ip = ip
-        log.info(ip)
+        #log.info(ip)
         test.port = port
-        log.info(port)
+        #log.info(port)
         test.apkname=apkname
-        log.info(apkname)
+        #log.info(apkname)
         test.packageName=packageName
-        log.info(packageName)
+        #log.info(packageName)
         #for i in range(2):
         #test.run(ip)
         #cmd.adbmonkey(way,ip,packageName,100)
@@ -57,16 +57,16 @@ def main():
     #获取配置文件信息
     dics=cmd.texttodic("/config.txt")
     key=dics.keys()
-    log.info(key)
+    #log.info(key)
     dic=dics[key[0]]
-    log.info(dic)
+    #log.info(dic)
     svnpath=dic['svnpath']
     packageName = dic['packagename']
-    log.info(packageName)
+    #log.info(packageName)
     activity = dic['activity']
-    log.info(activity)
+    #log.info(activity)
     name = dic['apkname']
-    log.info(name)
+    #log.info(name)
     way = dic['way']
     port = dic['port']
     # 检查svn，判断是否通过svn安卓
@@ -98,7 +98,7 @@ def main():
                 ips = ips.strip()
                 cmd.adbcon(ips)
         for ip in cmd.adbmdev():
-            log.debug(ip)
+            #log.debug(ip)
             if "List" in ip.strip():
                 pass
             elif ip.strip() == "":
@@ -107,7 +107,7 @@ def main():
                 ip = ip.strip().split("device")[0].strip()
                 if ":5555" in ip:
                     ip = ip.strip().split(":5555")[0]
-                log.info( ip)
+                #log.info( ip)
                 '''
                 p = Process(target=func, args=(way, ip, port, name, packageName,))
                 p.start()

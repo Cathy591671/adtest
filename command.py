@@ -45,12 +45,12 @@ def adbcon(ip):
     #con_info=os.system(con_cmd)
     #print con_info.read()
     if "unable" in con_info:
-        log.error("please check the ip and make sure you've install wireless")
+        #log.error("please check the ip and make sure you've install wireless")
         return False
     else:
         iscon=adbdev(ip)
         if "unauthorized" in iscon or "offline" in iscon:
-            log.debug("reconnnect")
+            #log.debug("reconnnect")
             adbcon(ip)
             #return False
         else:
@@ -110,37 +110,37 @@ def phonecon(way,ip):
 
 def adbgetversion(way,ip):
     getversion_cmd="adb -s "+ phonecon(way,ip)+"  shell getprop ro.build.version.release"
-    log.info("get android version command is ："+  getversion_cmd)
+    #log.info("get android version command is ："+  getversion_cmd)
     getversion_info=os.popen(getversion_cmd).read()
-    log.info("android version is :"+getversion_info)
+    #log.info("android version is :"+getversion_info)
     return getversion_info.strip()
 
 def adbgetpro(way,ip):
     getprono_cmd="adb  -s "+ phonecon(way,ip)+"  shell getprop ro.product.model"
-    log.info("to get the device type command is ："+  getprono_cmd)
+    #log.info("to get the device type command is ："+  getprono_cmd)
     getprono_info=os.popen(getprono_cmd).read()
-    log.info("the device type is :"+getprono_info)
+    #log.info("the device type is :"+getprono_info)
     return getprono_info.strip()
 
 def adblogcat(way,ip,packageName):
     #tm=currnt time
     tm = time.strftime('%Y-%m-%d-%H-%M', time.localtime(time.time()))
     print("start to collect the log")
-    log.debug("start to collect the log")
+    #log.debug("start to collect the log")
     #define logname
     log_filename =log_path+"/"+ip+"#"+tm
     logcat_file = open(log_filename, 'w')
     #search the pid of packagename
     ps_cmd = "adb -s " + phonecon(way, ip) + "  shell ps|grep %s" % (packageName)
-    log.info(ps_cmd)
+    #log.info(ps_cmd)
     ps_info = os.popen(ps_cmd)
     str = ""
     for i in ps_info.readlines():
-        log.info(i)
+        #log.info(i)
         pid_list = i.split()
-        log.info(pid_list)
+        #log.info(pid_list)
         pid = pid_list[1]
-        log.info(pid)
+        #log.info(pid)
         str = ' '.join([str, pid.strip()])
         #str = str + " " + pid
     '''
@@ -155,9 +155,9 @@ def adblogcat(way,ip,packageName):
         str = ' '.join([str, pid.strip()])
     '''
     if str.strip()=="":
-        log.info("packagename is  %s ,，can not get the pid" % (packageName))
+        #log.info("packagename is  %s ,，can not get the pid" % (packageName))
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time"
-        log.info("print all the logs command is ：" + log_cmd)
+        #log.info("print all the logs command is ：" + log_cmd)
         #log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
         log_info=os.popen(log_cmd)
         #print log_info
@@ -166,7 +166,7 @@ def adblogcat(way,ip,packageName):
         print("device "+ip+" has complete print the log")
     else:
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time *:E |grep '%s' " % (str)
-        log.info("print %s log command is ：" % (ip) + log_cmd)
+        #log.info("print %s log command is ：" % (ip) + log_cmd)
         #log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
         log_info=os.popen(log_cmd)
         #print log_info
@@ -205,20 +205,20 @@ def svncheck(svnpath):
     updateinfo=os.popen(update_cmd)
     time.sleep(5)
     x=str(updateinfo.read())
-    log.info( '打印的日志是'+x)
+    #log.info( '打印的日志是'+x)
     if 'A    '+svnpath in x:
         xsp=x.split('A    '+svnpath+'\\')[1].split('.apk')[0]
-        log.info( 'xsp是'+xsp)
+        #log.info( 'xsp是'+xsp)
         global apkname
         apkname=str(xsp)+'.apk'
-        log.info( '更新的包是:'+apkname)
-        log.info("更改config文件中的包名")
+        #log.info( '更新的包是:'+apkname)
+        #log.info("更改config文件中的包名")
         f = open(file_path+'\config.txt', 'r+')
         flist = f.readlines()
         flist[3] = 'apkname'+'|'+apkname
         f = open(file_path+'\config.txt', 'w+')
         f.writelines(flist)
-        log.info("复制文件到file文件夹中")
+        #log.info("复制文件到file文件夹中")
         shutil.move(svnpath+'\\'+apkname,file_path+'\\'+apkname)
         f.close()
         return apkname
@@ -277,38 +277,38 @@ def killappium():
 
 def killadb():
     cmd = "taskkill /F /im adb.exe"
-    log.debug("杀进程adb.exe")
+    #log.debug("杀进程adb.exe")
     task_info = os.popen(cmd)
 
 def killpid(port):
     pid='555'
     cmd = "taskkill /F /PID %s"%(pid)
-    log.debug("杀pid为"+pid+"的进程")
+    #log.debug("杀pid为"+pid+"的进程")
     task_info = os.popen(cmd)
 
 def adbmeninfo(way,ip,packageName):
     tm = time.strftime('%d-%H-%M-%S', time.localtime(time.time()))
     men_cmd = "adb  -s "+ phonecon(way,ip)+"  shell dumpsys meminfo %s>%s/%s%s-men.txt" % (packageName,log_path,ip,tm)
-    log.info("输入的指令为：" + men_cmd)
+    #log.info("输入的指令为：" + men_cmd)
     input_info = os.popen(men_cmd)
     #print input_info.read()
 
 def adbcpuinfo(way,ip,packageName):
     tm = time.strftime('%d-%H-%M-%S', time.localtime(time.time()))
     cpu_cmd = "adb  -s "+ phonecon(way,ip)+"  shell dumpsys cpuinfo|grep %s >%s/%s%s-cpu.txt" % (packageName,log_path,ip,tm)
-    log.info("输入的指令为：" + cpu_cmd)
+    #log.info("输入的指令为：" + cpu_cmd)
     input_info = os.popen(cpu_cmd)
 
 def adbtopinfo(way,ip):
     cpu_cmd = "adb  -s "+ phonecon(way,ip)+"  shell top -m 500 -d 2>%s/%s-top.txt" % (log_path,ip)
-    log.info("输入的指令为：" + cpu_cmd)
+    #log.info("输入的指令为：" + cpu_cmd)
     input_info = os.popen(cpu_cmd)
 
 #--pct-syskeys 系统时间，back建，home建，音量键，电话键
 #--pct-motion  滑动
 def adbmonkey(way,ip,packageName,times):
     monkey_cmd="adb -s "+ phonecon(way,ip)+"  shell monkey -p %s --ignore-crashes --ignore-timeouts --pct-touch 30 --pct-syskeys 0 --pct-motion 0 -v -v --throttle 200 %s >%s/%s-monkey.txt"%(packageName,times,log_path,ip)
-    log.info("执行monkey的指令为:"+monkey_cmd)
+    #log.info("执行monkey的指令为:"+monkey_cmd)
     os.popen(monkey_cmd)
 
 #手机必须root才能使用
@@ -320,63 +320,63 @@ def adbnet(way,ip,packageName):
     uid_info = subprocess.Popen(uid_cmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     uid=""
     for i in uid_info.stdout.readlines():
-        log.info(i)
+        #log.info(i)
         uid_list=i.split()
-        log.info(uid_list)
+        #log.info(uid_list)
         uid=uid_list[1]
-        log.info(uid)
+        #log.info(uid)
     #uid=uid_info.stdout.readline()[1]
-    log.info(uid)
+    #log.info(uid)
     #获取app应用消耗的流量
     netfile = log_path + "\\" + uid + '-net.txt'
     net_cmd = "adb -s "+ phonecon(way,ip)+"  shell cat /proc/net/xt_qtaguid/stats |grep %s"%(uid)
-    log.info(net_cmd)
+    #log.info(net_cmd)
     p = subprocess.Popen(net_cmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     rx_b = 0
     tx_b = 0
     #log.info(p.stdout.readlines())
     for i in p.stdout.readlines():
-        log.info(i)
+        #log.info(i)
         info = i.split()
-        log.info(info)
+        #log.info(info)
         rx_b += int(info[5])
-        log.info(rx_b)
+        #log.info(rx_b)
         tx_b += int(info[7])
-        log.info(tx_b)
+        #log.info(tx_b)
     rxtx= rx_b + tx_b
-    log.info(rxtx)
+    #log.info(rxtx)
     fo=open(netfile, 'a')
     #运行一次，将数据保存到文件中
     fo.write(currentTime + ',' + str(rx_b) + ','+ str(tx_b)+ ','+str(rxtx) +'\n')
 
 def adbelectric(way,ip,packagename):
     ps_cmd="adb -s "+ phonecon(way,ip)+"  shell ps|grep %s"%(packagename)
-    log.info(ps_cmd)
+    #log.info(ps_cmd)
     ps_info = os.popen(ps_cmd)
     uid=""
     for i in ps_info.readlines():
-        log.info(i)
+        #log.info(i)
         uid_list = i.split()
-        log.info(uid_list)
+        #log.info(uid_list)
         uid = uid_list[0].replace("_","")
-        log.info(uid)
+        #log.info(uid)
     elec_cmd="adb -s "+ phonecon(way,ip)+"  shell dumpsys batterystats %s |grep %s"%(packagename,uid)
-    log.info(elec_cmd)
+    #log.info(elec_cmd)
     elec_info=os.popen(elec_cmd)
-    log.info(elec_info.readline())
+   # log.info(elec_info.readline())
 
 def texttodic(filename):
-    log.debug("file to dict")
+    #log.debug("file to dict")
     print("file to dict")
     datafile = file_path+filename
-    log.info(datafile)
+    #log.info(datafile)
     print(datafile)
     if os.path.exists(datafile):
         f = open(datafile)
         dic = dict()
         key = ""
         lines = f.readlines()
-        log.info(lines)
+        #log.info(lines)
         for l in lines:
             if l.startswith('#'):
                 key = l.strip('\n').strip('#').lower()
@@ -409,10 +409,10 @@ def texttolist(filename):
         f.close()
         return list
     else:
-        #log.error(datafile + "file is not exist")
+        log.error(datafile + "file is not exist")
 
 def analyzelog():
-    log.debug("分析monkey的log日志")
+    #log.debug("分析monkey的log日志")
     monlog=log_path+"//10.167.170.302017-03-03-17-35logcat.log"
     beffile=open(monlog,'r')
     content=beffile.readlines()
@@ -428,23 +428,23 @@ def analyzelog():
 
         for i in content:
             if re.match(str1,i):
-                log.error("测试过程中出现了无响应，具体内容为："+i)
+                #log.error("测试过程中出现了无响应，具体内容为："+i)
                 aftfile.write(i)
                 Acount+=1
             elif re.match(str2,i):
-                log.error("测试过程中出现了奔溃，具体内容为："+i)
+                #log.error("测试过程中出现了奔溃，具体内容为："+i)
                 aftfile.write(i)
                 Ccount+=1
             elif re.match(str3,i):
-                log.error("测试过程中出现了异常，具体内容为："+i)
+                #log.error("测试过程中出现了异常，具体内容为："+i)
                 aftfile.write(i)
                 Ecount+=1
         if Acount==0 or Ccount==0 or Ecount==0:
             for i in content:
                 if re.match(str4,i):
-                    log.info("测试正常完成")
+                    #log.info("测试正常完成")
                     aftfile.write(i)
-        log.info("log分析结束")
+        #log.info("log分析结束")
 
 
 

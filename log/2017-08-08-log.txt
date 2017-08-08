@@ -69,3 +69,30 @@
 2017-08-08 07:28:52,210:INFO 4723
 2017-08-08 07:28:52,210:INFO jinkuihua.apk
 2017-08-08 07:28:52,210:INFO com.cgs.fund
+2017-08-08 07:50:03,554:DEBUG file to dict
+2017-08-08 07:50:03,554:INFO /usr/src/config/config.txt
+2017-08-08 07:50:03,556:INFO ['#congfig info\r\n', 'svnpath|D:\\python\\apk\r\n', 'packagename|com.cgs.fund\r\n', 'activity|.activity.mainActivity\r\n', 'apkname|jinkuihua.apk\r\n', 'way|2\r\n', 'port|4723']
+2017-08-08 07:50:03,557:INFO ['congfig info\r']
+2017-08-08 07:50:03,559:INFO {'apkname': 'jinkuihua.apk', 'svnpath': 'D:\\python\\apk', 'way': '2', 'activity': '.activity.mainActivity', 'packagename': 'com.cgs.fund', 'port': '4723'}
+2017-08-08 07:50:03,559:INFO com.cgs.fund
+2017-08-08 07:50:03,559:INFO .activity.mainActivity
+2017-08-08 07:50:03,560:INFO jinkuihua.apk
+2017-08-08 07:50:03,575:DEBUG List of devices attached
+
+2017-08-08 07:50:03,576:DEBUG 7N2SSE154P048512	device
+
+2017-08-08 07:50:03,576:INFO 7N2SSE154P048512
+2017-08-08 07:50:03,576:DEBUG 
+
+2017-08-08 07:51:20,880:INFO 安装耗时	pkg: /data/local/tmp/jinkuihua.apk
+Success
+
+2017-08-08 07:51:23,886:INFO 成功安装1次
+2017-08-08 07:52:46,788:INFO 安装耗时	pkg: /data/local/tmp/jinkuihua.apk
+Success
+
+2017-08-08 07:52:49,795:INFO 成功安装2次
+2017-08-08 07:52:49,796:INFO 7N2SSE154P048512
+2017-08-08 07:52:49,797:INFO 4723
+2017-08-08 07:52:49,797:INFO jinkuihua.apk
+2017-08-08 07:52:49,798:INFO com.cgs.fund
