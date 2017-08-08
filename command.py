@@ -236,9 +236,6 @@ def adbinstall(way,ip,name):
     #log.info("installing...")
     print("installing...")
     if "Success" in install_info:
-        x=install_info.split("in ")[-1]
-        costTime=x.split(")")[0]
-        log.info("安装耗时%s"%(costTime))
         return True
     #out=install_info.stdout.read()
     #err=install_info.stderr.read()
