@@ -11,7 +11,7 @@ if sys.getdefaultencoding() != defaultencoding:
     reload(sys)
     sys.setdefaultencoding(defaultencoding)
 
-log_path=os.getcwd()+"/log"
+log_path="/usr/src/log"
 file_path="/usr/src/config"
 img_path=os.getcwd()+"/img"
 def checkpath():
@@ -123,9 +123,12 @@ def adbgetpro(way,ip):
     return getprono_info.strip()
 
 def adblogcat(way,ip,packageName):
+    #tm=currnt time
     tm = time.strftime('%Y-%m-%d-%H-%M', time.localtime(time.time()))
+    print("start to collect the log")
     log.debug("start to collect the log")
-    log_filename =log_path+"/"+ip+"#"+tm+"logcat.log"
+    #define logname
+    log_filename =log_path+"/"+ip+"#"+tm
     logcat_file = open(log_filename, 'w')
     #search the pid of packagename
     ps_cmd = "adb -s " + phonecon(way, ip) + "  shell ps|grep %s" % (packageName)
@@ -159,7 +162,7 @@ def adblogcat(way,ip,packageName):
         #print log_info
         time.sleep(10)
         log_info.terminate()
-        log.debug("device "+ip+" has complete print the log")
+        print("device "+ip+" has complete print the log")
     else:
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time *:E |grep '%s' " % (str)
         log.info("print %s log command is ：" % (ip) + log_cmd)
@@ -168,7 +171,7 @@ def adblogcat(way,ip,packageName):
         #time.sleep(10)
         log_info.wait()
         log_info.terminate()
-        log.debug("deivce " + ip + "log print has been finished")
+        print("deivce " + ip + "log print has been finished")
 
 def adbuninstall(way,ip,packageName):
     log.debug("check if "+ip+"is installed "+packageName)
