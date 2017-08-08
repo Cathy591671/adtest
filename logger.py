@@ -4,14 +4,14 @@ import os
 import time
 import sys
 
-log_path=os.getcwd()+"\\log"
+log_path="/usr/src/log"
 if os.path.exists(log_path):
     pass
 else:
     os.mkdir(log_path)
 
 tm=time.strftime('%Y-%m-%d',time.localtime(time.time()))
-logfile=log_path+"\\"+tm+'-log.log'
+logfile=log_path+"\\"+tm+'-log.txt'
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s %(message)s',

@@ -25,22 +25,22 @@ def checkpath():
         os.mkdir(img_path)
         
 def adbkill():
-    log.debug("start shutdown the adb service")
+    #log.debug("start shutdown the adb service")
     kill_cmd = "adb kill-server"
-    log.info("the shutdown adb command is ：" + kill_cmd)
+    #log.info("the shutdown adb command is ：" + kill_cmd)
     os.popen(kill_cmd)
 
 def adbstart():
-    log.debug("start the adb service")
+    #log.debug("start the adb service")
     start_cmd = "adb start-server"
-    log.info("the start adb command is ：" + start_cmd)
+    #log.info("the start adb command is ：" + start_cmd)
     os.popen(start_cmd)
 
 def adbcon(ip):
     #os.system("adb kill-server")
     log.debug("start to connect the devices，ip为:"+ip)
     con_cmd="adb connect %s"%(ip)
-    log.info("the connnect command is ：" + con_cmd)
+    #log.info("the connnect command is ：" + con_cmd)
     con_info=os.popen(con_cmd).read()
     #con_info=os.system(con_cmd)
     #print con_info.read()
@@ -74,17 +74,17 @@ def adbcon(ip):
 
 def adbdev(ip):
     check_cmd="adb devices|grep %s" %(ip)
-    log.info("check connection status commmand is  ："+  check_cmd)
+    #log.info("check connection status commmand is  ："+  check_cmd)
     check_info=os.popen(check_cmd).read()
     print check_info
-    log.info("connect info is :"+check_info)
+    #log.info("connect info is :"+check_info)
     return check_info
 
 def adbmdev():
     check_cmd="adb devices"
-    log.info("check the connected devices command is ："+  check_cmd)
+    #log.info("check the connected devices command is ："+  check_cmd)
     check_info=os.popen(check_cmd)
-    log.info(check_info)
+    #log.info(check_info)
     #log.info("连接信息为:"+check_info)
     return check_info
 
@@ -227,13 +227,15 @@ def adbinstall(way,ip,name):
     print("device "+ip+" is starting install "+name)
     #install_cmd='adb -s "+ phonecon(way,ip)+"  shell pm install D:\python\\apk\%s'%(ip,name)
     install_cmd = "adb -s "+phonecon(way,ip)+" install -l -r %s/%s" % (file_path,name)
-    log.info("the install command is " + install_cmd)
+    #log.info("the install command is " + install_cmd)
     print("the install command is ：" + install_cmd)
     #install_info= subprocess.Popen(install_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    install_info=os.popen(install_cmd)
-    log.info("installing...")
+    install_info=os.popen(install_cmd).read()
+    #log.info("installing...")
     print("installing...")
-    print install_info.read()
+    if "Success" in install_info:
+        log.info("成功安装")
+        return True
     #out=install_info.stdout.read()
     #err=install_info.stderr.read()
     #log.info(out)

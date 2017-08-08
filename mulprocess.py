@@ -7,14 +7,18 @@ import logger as log
 import time
 
 def func(way,ip,port,apkname,packageName):
+    x=0
     try:
-        for i in range(1,2):
+        for i in range(1,3):
             print "%s is installed %d times"%(ip,i)
         #卸载app
             cmd.adbuninstall(way,ip, packageName)
         #安装app
-            cmd.adbinstall(way,ip, apkname)
+            install_result=cmd.adbinstall(way,ip, apkname)
+            if install_result:
+                x=x+1
             time.sleep(3)
+            log.info("共成功安装%d次"%(x))
 
         #启动appium
         #cmd.startappium(ip,port)
