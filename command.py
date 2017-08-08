@@ -158,7 +158,8 @@ def adblogcat(way,ip,packageName):
         log.info("packagename is  %s ,，can not get the pid" % (packageName))
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time"
         log.info("print all the logs command is ：" + log_cmd)
-        log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
+        #log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
+        log_info=os.popen(log_cmd)
         #print log_info
         time.sleep(10)
         log_info.terminate()
@@ -166,7 +167,8 @@ def adblogcat(way,ip,packageName):
     else:
         log_cmd = "adb -s "+ phonecon(way,ip)+"  logcat -v time *:E |grep '%s' " % (str)
         log.info("print %s log command is ：" % (ip) + log_cmd)
-        log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
+        #log_info = subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE)
+        log_info=os.popen(log_cmd)
         #print log_info
         #time.sleep(10)
         log_info.wait()

@@ -37,11 +37,11 @@ def func(way,ip,port,apkname,packageName):
 
     except Exception as e:
         print  e
-    finally:
+    #finally:
         #cmd.adbmeninfo(way,ip,packageName)
         #cmd.adbcpuinfo(way,ip,packageName)
         #获取logcat日志
-        cmd.adblogcat(way,ip, packageName)
+        #cmd.adblogcat(way,ip, packageName)
     print "执行完成"
 
 def main():

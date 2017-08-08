@@ -11,7 +11,7 @@ else:
     os.mkdir(log_path)
 
 tm=time.strftime('%Y-%m-%d',time.localtime(time.time()))
-logfile=log_path+"\\"+tm+'-log.txt'
+logfile=log_path+"/"+tm+'-log.txt'
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s %(message)s',
